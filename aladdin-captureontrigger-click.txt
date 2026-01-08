@@ -1,0 +1,83 @@
+No.     Time           Source                Destination           Protocol Length Info
+      1 0.000000       192.168.187.214       192.168.187.31        TCP      55     63090 → 51000 [PSH, ACK] Seq=1 Ack=1 Win=65193 Len=1
+
+Frame 1: Packet, 55 bytes on wire (440 bits), 55 bytes captured (440 bits) on interface \Device\NPF_{F4ADB386-60D9-4E48-ACB9-89867C80FC44}, id 0
+Ethernet II, Src: HP_5c:c7:13 (24:6a:0e:5c:c7:13), Dst: DataLogic_4d:db:c8 (00:07:be:4d:db:c8)
+Internet Protocol Version 4, Src: 192.168.187.214, Dst: 192.168.187.31
+Transmission Control Protocol, Src Port: 63090, Dst Port: 51000, Seq: 1, Ack: 1, Len: 1
+Data (1 byte)
+
+0000  78                                                x
+    Data: 78
+    [Length: 1]
+
+No.     Time           Source                Destination           Protocol Length Info
+      2 0.012178       192.168.187.31        192.168.187.214       TCP      60     51000 → 63090 [ACK] Seq=1 Ack=2 Win=2832 Len=0
+
+Frame 2: Packet, 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface \Device\NPF_{F4ADB386-60D9-4E48-ACB9-89867C80FC44}, id 0
+Ethernet II, Src: DataLogic_4d:db:c8 (00:07:be:4d:db:c8), Dst: HP_5c:c7:13 (24:6a:0e:5c:c7:13)
+Internet Protocol Version 4, Src: 192.168.187.31, Dst: 192.168.187.214
+Transmission Control Protocol, Src Port: 51000, Dst Port: 63090, Seq: 1, Ack: 2, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+      3 0.012192       192.168.187.214       192.168.187.31        TCP      68     63090 → 51000 [PSH, ACK] Seq=2 Ack=1 Win=65193 Len=14
+
+Frame 3: Packet, 68 bytes on wire (544 bits), 68 bytes captured (544 bits) on interface \Device\NPF_{F4ADB386-60D9-4E48-ACB9-89867C80FC44}, id 0
+Ethernet II, Src: HP_5c:c7:13 (24:6a:0e:5c:c7:13), Dst: DataLogic_4d:db:c8 (00:07:be:4d:db:c8)
+Internet Protocol Version 4, Src: 192.168.187.214, Dst: 192.168.187.31
+Transmission Control Protocol, Src Port: 63090, Dst Port: 51000, Seq: 2, Ack: 1, Len: 14
+Data (14 bytes)
+
+0000  30 34 30 30 30 30 30 30 30 30 30 30 0d 0d         040000000000..
+    Data: 3034303030303030303030300d0d
+    [Length: 14]
+
+No.     Time           Source                Destination           Protocol Length Info
+      4 0.262228       192.168.187.31        192.168.187.214       TCP      60     51000 → 63090 [ACK] Seq=1 Ack=16 Win=2818 Len=0
+
+Frame 4: Packet, 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface \Device\NPF_{F4ADB386-60D9-4E48-ACB9-89867C80FC44}, id 0
+Ethernet II, Src: DataLogic_4d:db:c8 (00:07:be:4d:db:c8), Dst: HP_5c:c7:13 (24:6a:0e:5c:c7:13)
+Internet Protocol Version 4, Src: 192.168.187.31, Dst: 192.168.187.214
+Transmission Control Protocol, Src Port: 51000, Dst Port: 63090, Seq: 1, Ack: 16, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+      5 2.266321       192.168.187.214       192.168.187.31        TCP      55     63090 → 51000 [PSH, ACK] Seq=16 Ack=1 Win=65193 Len=1
+
+Frame 5: Packet, 55 bytes on wire (440 bits), 55 bytes captured (440 bits) on interface \Device\NPF_{F4ADB386-60D9-4E48-ACB9-89867C80FC44}, id 0
+Ethernet II, Src: HP_5c:c7:13 (24:6a:0e:5c:c7:13), Dst: DataLogic_4d:db:c8 (00:07:be:4d:db:c8)
+Internet Protocol Version 4, Src: 192.168.187.214, Dst: 192.168.187.31
+Transmission Control Protocol, Src Port: 63090, Dst Port: 51000, Seq: 16, Ack: 1, Len: 1
+Data (1 byte)
+
+0000  78                                                x
+    Data: 78
+    [Length: 1]
+
+No.     Time           Source                Destination           Protocol Length Info
+      6 2.512353       192.168.187.31        192.168.187.214       TCP      60     51000 → 63090 [ACK] Seq=1 Ack=17 Win=2817 Len=0
+
+Frame 6: Packet, 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface \Device\NPF_{F4ADB386-60D9-4E48-ACB9-89867C80FC44}, id 0
+Ethernet II, Src: DataLogic_4d:db:c8 (00:07:be:4d:db:c8), Dst: HP_5c:c7:13 (24:6a:0e:5c:c7:13)
+Internet Protocol Version 4, Src: 192.168.187.31, Dst: 192.168.187.214
+Transmission Control Protocol, Src Port: 51000, Dst Port: 63090, Seq: 1, Ack: 17, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+      7 2.512386       192.168.187.214       192.168.187.31        TCP      68     63090 → 51000 [PSH, ACK] Seq=17 Ack=1 Win=65193 Len=14
+
+Frame 7: Packet, 68 bytes on wire (544 bits), 68 bytes captured (544 bits) on interface \Device\NPF_{F4ADB386-60D9-4E48-ACB9-89867C80FC44}, id 0
+Ethernet II, Src: HP_5c:c7:13 (24:6a:0e:5c:c7:13), Dst: DataLogic_4d:db:c8 (00:07:be:4d:db:c8)
+Internet Protocol Version 4, Src: 192.168.187.214, Dst: 192.168.187.31
+Transmission Control Protocol, Src Port: 63090, Dst Port: 51000, Seq: 17, Ack: 1, Len: 14
+Data (14 bytes)
+
+0000  30 31 31 30 30 30 30 30 30 30 30 30 0d 0d         011000000000..
+    Data: 3031313030303030303030300d0d
+    [Length: 14]
+
+No.     Time           Source                Destination           Protocol Length Info
+      8 2.762262       192.168.187.31        192.168.187.214       TCP      60     51000 → 63090 [ACK] Seq=1 Ack=31 Win=2803 Len=0
+
+Frame 8: Packet, 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface \Device\NPF_{F4ADB386-60D9-4E48-ACB9-89867C80FC44}, id 0
+Ethernet II, Src: DataLogic_4d:db:c8 (00:07:be:4d:db:c8), Dst: HP_5c:c7:13 (24:6a:0e:5c:c7:13)
+Internet Protocol Version 4, Src: 192.168.187.31, Dst: 192.168.187.214
+Transmission Control Protocol, Src Port: 51000, Dst Port: 63090, Seq: 1, Ack: 31, Len: 0

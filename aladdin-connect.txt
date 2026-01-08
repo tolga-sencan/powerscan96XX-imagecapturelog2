@@ -1,0 +1,1023 @@
+No.     Time           Source                Destination           Protocol Length Info
+      1 0.000000       192.168.187.214       192.168.187.31        TCP      66     56698 → 51000 [SYN] Seq=0 Win=65535 Len=0 MSS=1460 WS=256 SACK_PERM
+
+Frame 1: Packet, 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface \Device\NPF_{F4ADB386-60D9-4E48-ACB9-89867C80FC44}, id 0
+Ethernet II, Src: HP_5c:c7:13 (24:6a:0e:5c:c7:13), Dst: DataLogic_4d:db:c8 (00:07:be:4d:db:c8)
+Internet Protocol Version 4, Src: 192.168.187.214, Dst: 192.168.187.31
+Transmission Control Protocol, Src Port: 56698, Dst Port: 51000, Seq: 0, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+      2 0.000560       192.168.187.31        192.168.187.214       TCP      60     51000 → 56698 [SYN, ACK] Seq=0 Ack=1 Win=2920 Len=0 MSS=1460
+
+Frame 2: Packet, 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface \Device\NPF_{F4ADB386-60D9-4E48-ACB9-89867C80FC44}, id 0
+Ethernet II, Src: DataLogic_4d:db:c8 (00:07:be:4d:db:c8), Dst: HP_5c:c7:13 (24:6a:0e:5c:c7:13)
+Internet Protocol Version 4, Src: 192.168.187.31, Dst: 192.168.187.214
+Transmission Control Protocol, Src Port: 51000, Dst Port: 56698, Seq: 0, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+      3 0.000616       192.168.187.214       192.168.187.31        TCP      54     56698 → 51000 [ACK] Seq=1 Ack=1 Win=65535 Len=0
+
+Frame 3: Packet, 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{F4ADB386-60D9-4E48-ACB9-89867C80FC44}, id 0
+Ethernet II, Src: HP_5c:c7:13 (24:6a:0e:5c:c7:13), Dst: DataLogic_4d:db:c8 (00:07:be:4d:db:c8)
+Internet Protocol Version 4, Src: 192.168.187.214, Dst: 192.168.187.31
+Transmission Control Protocol, Src Port: 56698, Dst Port: 51000, Seq: 1, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+      4 0.501574       192.168.187.214       192.168.187.31        TCP      57     56698 → 51000 [PSH, ACK] Seq=1 Ack=1 Win=65535 Len=3
+
+Frame 4: Packet, 57 bytes on wire (456 bits), 57 bytes captured (456 bits) on interface \Device\NPF_{F4ADB386-60D9-4E48-ACB9-89867C80FC44}, id 0
+Ethernet II, Src: HP_5c:c7:13 (24:6a:0e:5c:c7:13), Dst: DataLogic_4d:db:c8 (00:07:be:4d:db:c8)
+Internet Protocol Version 4, Src: 192.168.187.214, Dst: 192.168.187.31
+Transmission Control Protocol, Src Port: 56698, Dst Port: 51000, Seq: 1, Ack: 1, Len: 3
+Data (3 bytes)
+
+0000  24 53 0d                                          $S.
+    Data: 24530d
+    [Length: 3]
+
+No.     Time           Source                Destination           Protocol Length Info
+      5 0.710315       192.168.187.214       192.168.187.31        TCP      57     [TCP Retransmission] 56698 → 51000 [PSH, ACK] Seq=1 Ack=1 Win=65535 Len=3
+
+Frame 5: Packet, 57 bytes on wire (456 bits), 57 bytes captured (456 bits) on interface \Device\NPF_{F4ADB386-60D9-4E48-ACB9-89867C80FC44}, id 0
+Ethernet II, Src: HP_5c:c7:13 (24:6a:0e:5c:c7:13), Dst: DataLogic_4d:db:c8 (00:07:be:4d:db:c8)
+Internet Protocol Version 4, Src: 192.168.187.214, Dst: 192.168.187.31
+Transmission Control Protocol, Src Port: 56698, Dst Port: 51000, Seq: 1, Ack: 1, Len: 3
+
+No.     Time           Source                Destination           Protocol Length Info
+      6 0.710659       192.168.187.31        192.168.187.214       TCP      60     51000 → 56698 [ACK] Seq=1 Ack=4 Win=2917 Len=0
+
+Frame 6: Packet, 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface \Device\NPF_{F4ADB386-60D9-4E48-ACB9-89867C80FC44}, id 0
+Ethernet II, Src: DataLogic_4d:db:c8 (00:07:be:4d:db:c8), Dst: HP_5c:c7:13 (24:6a:0e:5c:c7:13)
+Internet Protocol Version 4, Src: 192.168.187.31, Dst: 192.168.187.214
+Transmission Control Protocol, Src Port: 51000, Dst Port: 56698, Seq: 1, Ack: 4, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+      7 0.757353       192.168.187.31        192.168.187.214       TCP      60     51000 → 56698 [PSH, ACK] Seq=1 Ack=4 Win=2917 Len=3
+
+Frame 7: Packet, 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface \Device\NPF_{F4ADB386-60D9-4E48-ACB9-89867C80FC44}, id 0
+Ethernet II, Src: DataLogic_4d:db:c8 (00:07:be:4d:db:c8), Dst: HP_5c:c7:13 (24:6a:0e:5c:c7:13)
+Internet Protocol Version 4, Src: 192.168.187.31, Dst: 192.168.187.214
+Transmission Control Protocol, Src Port: 51000, Dst Port: 56698, Seq: 1, Ack: 4, Len: 3
+Data (3 bytes)
+
+0000  24 3e 0d                                          $>.
+    Data: 243e0d
+    [Length: 3]
+
+No.     Time           Source                Destination           Protocol Length Info
+      8 0.757478       192.168.187.214       192.168.187.31        TCP      54     56698 → 51000 [ACK] Seq=4 Ack=4 Win=65532 Len=0
+
+Frame 8: Packet, 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{F4ADB386-60D9-4E48-ACB9-89867C80FC44}, id 0
+Ethernet II, Src: HP_5c:c7:13 (24:6a:0e:5c:c7:13), Dst: DataLogic_4d:db:c8 (00:07:be:4d:db:c8)
+Internet Protocol Version 4, Src: 192.168.187.214, Dst: 192.168.187.31
+Transmission Control Protocol, Src Port: 56698, Dst Port: 51000, Seq: 4, Ack: 4, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+      9 0.758041       192.168.187.214       192.168.187.31        TCP      58     56698 → 51000 [PSH, ACK] Seq=4 Ack=4 Win=65532 Len=4
+
+Frame 9: Packet, 58 bytes on wire (464 bits), 58 bytes captured (464 bits) on interface \Device\NPF_{F4ADB386-60D9-4E48-ACB9-89867C80FC44}, id 0
+Ethernet II, Src: HP_5c:c7:13 (24:6a:0e:5c:c7:13), Dst: DataLogic_4d:db:c8 (00:07:be:4d:db:c8)
+Internet Protocol Version 4, Src: 192.168.187.214, Dst: 192.168.187.31
+Transmission Control Protocol, Src Port: 56698, Dst Port: 51000, Seq: 4, Ack: 4, Len: 4
+Data (4 bytes)
+
+0000  24 68 41 0d                                       $hA.
+    Data: 2468410d
+    [Length: 4]
+
+No.     Time           Source                Destination           Protocol Length Info
+     10 0.961734       192.168.187.214       192.168.187.31        TCP      58     [TCP Retransmission] 56698 → 51000 [PSH, ACK] Seq=4 Ack=4 Win=65532 Len=4
+
+Frame 10: Packet, 58 bytes on wire (464 bits), 58 bytes captured (464 bits) on interface \Device\NPF_{F4ADB386-60D9-4E48-ACB9-89867C80FC44}, id 0
+Ethernet II, Src: HP_5c:c7:13 (24:6a:0e:5c:c7:13), Dst: DataLogic_4d:db:c8 (00:07:be:4d:db:c8)
+Internet Protocol Version 4, Src: 192.168.187.214, Dst: 192.168.187.31
+Transmission Control Protocol, Src Port: 56698, Dst Port: 51000, Seq: 4, Ack: 4, Len: 4
+
+No.     Time           Source                Destination           Protocol Length Info
+     11 0.962125       192.168.187.31        192.168.187.214       TCP      60     51000 → 56698 [ACK] Seq=4 Ack=8 Win=2913 Len=0
+
+Frame 11: Packet, 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface \Device\NPF_{F4ADB386-60D9-4E48-ACB9-89867C80FC44}, id 0
+Ethernet II, Src: DataLogic_4d:db:c8 (00:07:be:4d:db:c8), Dst: HP_5c:c7:13 (24:6a:0e:5c:c7:13)
+Internet Protocol Version 4, Src: 192.168.187.31, Dst: 192.168.187.214
+Transmission Control Protocol, Src Port: 51000, Dst Port: 56698, Seq: 4, Ack: 8, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     12 1.057372       192.168.187.31        192.168.187.214       TCP      60     51000 → 56698 [PSH, ACK] Seq=4 Ack=8 Win=2913 Len=5
+
+Frame 12: Packet, 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface \Device\NPF_{F4ADB386-60D9-4E48-ACB9-89867C80FC44}, id 0
+Ethernet II, Src: DataLogic_4d:db:c8 (00:07:be:4d:db:c8), Dst: HP_5c:c7:13 (24:6a:0e:5c:c7:13)
+Internet Protocol Version 4, Src: 192.168.187.31, Dst: 192.168.187.214
+Transmission Control Protocol, Src Port: 51000, Dst Port: 56698, Seq: 4, Ack: 8, Len: 5
+Data (5 bytes)
+
+0000  24 3e 31 39 0d                                    $>19.
+    Data: 243e31390d
+    [Length: 5]
+
+No.     Time           Source                Destination           Protocol Length Info
+     13 1.057491       192.168.187.214       192.168.187.31        TCP      54     56698 → 51000 [ACK] Seq=8 Ack=9 Win=65527 Len=0
+
+Frame 13: Packet, 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{F4ADB386-60D9-4E48-ACB9-89867C80FC44}, id 0
+Ethernet II, Src: HP_5c:c7:13 (24:6a:0e:5c:c7:13), Dst: DataLogic_4d:db:c8 (00:07:be:4d:db:c8)
+Internet Protocol Version 4, Src: 192.168.187.214, Dst: 192.168.187.31
+Transmission Control Protocol, Src Port: 56698, Dst Port: 51000, Seq: 8, Ack: 9, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     14 1.260710       192.168.187.214       192.168.187.31        TCP      57     56698 → 51000 [PSH, ACK] Seq=8 Ack=9 Win=65527 Len=3
+
+Frame 14: Packet, 57 bytes on wire (456 bits), 57 bytes captured (456 bits) on interface \Device\NPF_{F4ADB386-60D9-4E48-ACB9-89867C80FC44}, id 0
+Ethernet II, Src: HP_5c:c7:13 (24:6a:0e:5c:c7:13), Dst: DataLogic_4d:db:c8 (00:07:be:4d:db:c8)
+Internet Protocol Version 4, Src: 192.168.187.214, Dst: 192.168.187.31
+Transmission Control Protocol, Src Port: 56698, Dst Port: 51000, Seq: 8, Ack: 9, Len: 3
+Data (3 bytes)
+
+0000  24 21 0d                                          $!.
+    Data: 24210d
+    [Length: 3]
+
+No.     Time           Source                Destination           Protocol Length Info
+     15 1.468527       192.168.187.214       192.168.187.31        TCP      57     [TCP Retransmission] 56698 → 51000 [PSH, ACK] Seq=8 Ack=9 Win=65527 Len=3
+
+Frame 15: Packet, 57 bytes on wire (456 bits), 57 bytes captured (456 bits) on interface \Device\NPF_{F4ADB386-60D9-4E48-ACB9-89867C80FC44}, id 0
+Ethernet II, Src: HP_5c:c7:13 (24:6a:0e:5c:c7:13), Dst: DataLogic_4d:db:c8 (00:07:be:4d:db:c8)
+Internet Protocol Version 4, Src: 192.168.187.214, Dst: 192.168.187.31
+Transmission Control Protocol, Src Port: 56698, Dst Port: 51000, Seq: 8, Ack: 9, Len: 3
+
+No.     Time           Source                Destination           Protocol Length Info
+     16 1.469182       192.168.187.31        192.168.187.214       TCP      60     51000 → 56698 [ACK] Seq=9 Ack=11 Win=2910 Len=0
+
+Frame 16: Packet, 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface \Device\NPF_{F4ADB386-60D9-4E48-ACB9-89867C80FC44}, id 0
+Ethernet II, Src: DataLogic_4d:db:c8 (00:07:be:4d:db:c8), Dst: HP_5c:c7:13 (24:6a:0e:5c:c7:13)
+Internet Protocol Version 4, Src: 192.168.187.31, Dst: 192.168.187.214
+Transmission Control Protocol, Src Port: 51000, Dst Port: 56698, Seq: 9, Ack: 11, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     17 1.507429       192.168.187.31        192.168.187.214       TCP      122    51000 → 56698 [PSH, ACK] Seq=9 Ack=11 Win=2910 Len=68
+
+Frame 17: Packet, 122 bytes on wire (976 bits), 122 bytes captured (976 bits) on interface \Device\NPF_{F4ADB386-60D9-4E48-ACB9-89867C80FC44}, id 0
+Ethernet II, Src: DataLogic_4d:db:c8 (00:07:be:4d:db:c8), Dst: HP_5c:c7:13 (24:6a:0e:5c:c7:13)
+Internet Protocol Version 4, Src: 192.168.187.31, Dst: 192.168.187.214
+Transmission Control Protocol, Src Port: 51000, Dst Port: 56698, Seq: 9, Ack: 11, Len: 68
+Data (68 bytes)
+
+0000  42 43 39 36 30 30 2d 42 54 2d 42 41 53 45 2d 43   BC9600-BT-BASE-C
+0010  48 41 52 47 45 52 20 53 4f 46 54 57 41 52 45 20   HARGER SOFTWARE 
+0020  52 45 4c 45 41 53 45 20 36 31 30 31 35 39 32 35   RELEASE 61015925
+0030  34 20 42 4c 20 35 34 20 31 32 2f 4d 61 79 2f 32   4 BL 54 12/May/2
+0040  30 32 35 0d                                       025.
+    Data: 4243393630302d42542d424153452d4348415247455220534f4654574152452052454c454153452036313031353932353420424c2035342031322f4d61792f323032350d
+    [Length: 68]
+
+No.     Time           Source                Destination           Protocol Length Info
+     18 1.507484       192.168.187.214       192.168.187.31        TCP      54     56698 → 51000 [ACK] Seq=11 Ack=77 Win=65459 Len=0
+
+Frame 18: Packet, 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{F4ADB386-60D9-4E48-ACB9-89867C80FC44}, id 0
+Ethernet II, Src: HP_5c:c7:13 (24:6a:0e:5c:c7:13), Dst: DataLogic_4d:db:c8 (00:07:be:4d:db:c8)
+Internet Protocol Version 4, Src: 192.168.187.214, Dst: 192.168.187.31
+Transmission Control Protocol, Src Port: 56698, Dst Port: 51000, Seq: 11, Ack: 77, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     19 2.382783       192.168.187.214       192.168.187.31        TCP      58     56698 → 51000 [PSH, ACK] Seq=11 Ack=77 Win=65459 Len=4
+
+Frame 19: Packet, 58 bytes on wire (464 bits), 58 bytes captured (464 bits) on interface \Device\NPF_{F4ADB386-60D9-4E48-ACB9-89867C80FC44}, id 0
+Ethernet II, Src: HP_5c:c7:13 (24:6a:0e:5c:c7:13), Dst: DataLogic_4d:db:c8 (00:07:be:4d:db:c8)
+Internet Protocol Version 4, Src: 192.168.187.214, Dst: 192.168.187.31
+Transmission Control Protocol, Src Port: 56698, Dst Port: 51000, Seq: 11, Ack: 77, Len: 4
+Data (4 bytes)
+
+0000  24 68 41 0d                                       $hA.
+    Data: 2468410d
+    [Length: 4]
+
+No.     Time           Source                Destination           Protocol Length Info
+     20 2.500033       192.168.187.31        192.168.187.214       TCP      60     51000 → 56698 [ACK] Seq=77 Ack=15 Win=2906 Len=0
+
+Frame 20: Packet, 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface \Device\NPF_{F4ADB386-60D9-4E48-ACB9-89867C80FC44}, id 0
+Ethernet II, Src: DataLogic_4d:db:c8 (00:07:be:4d:db:c8), Dst: HP_5c:c7:13 (24:6a:0e:5c:c7:13)
+Internet Protocol Version 4, Src: 192.168.187.31, Dst: 192.168.187.214
+Transmission Control Protocol, Src Port: 51000, Dst Port: 56698, Seq: 77, Ack: 15, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     21 2.657233       192.168.187.31        192.168.187.214       TCP      60     51000 → 56698 [PSH, ACK] Seq=77 Ack=15 Win=2906 Len=5
+
+Frame 21: Packet, 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface \Device\NPF_{F4ADB386-60D9-4E48-ACB9-89867C80FC44}, id 0
+Ethernet II, Src: DataLogic_4d:db:c8 (00:07:be:4d:db:c8), Dst: HP_5c:c7:13 (24:6a:0e:5c:c7:13)
+Internet Protocol Version 4, Src: 192.168.187.31, Dst: 192.168.187.214
+Transmission Control Protocol, Src Port: 51000, Dst Port: 56698, Seq: 77, Ack: 15, Len: 5
+Data (5 bytes)
+
+0000  24 3e 31 39 0d                                    $>19.
+    Data: 243e31390d
+    [Length: 5]
+
+No.     Time           Source                Destination           Protocol Length Info
+     22 2.657304       192.168.187.214       192.168.187.31        TCP      54     56698 → 51000 [ACK] Seq=15 Ack=82 Win=65454 Len=0
+
+Frame 22: Packet, 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{F4ADB386-60D9-4E48-ACB9-89867C80FC44}, id 0
+Ethernet II, Src: HP_5c:c7:13 (24:6a:0e:5c:c7:13), Dst: DataLogic_4d:db:c8 (00:07:be:4d:db:c8)
+Internet Protocol Version 4, Src: 192.168.187.214, Dst: 192.168.187.31
+Transmission Control Protocol, Src Port: 56698, Dst Port: 51000, Seq: 15, Ack: 82, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     23 2.662313       192.168.187.214       192.168.187.31        TCP      57     56698 → 51000 [PSH, ACK] Seq=15 Ack=82 Win=65454 Len=3
+
+Frame 23: Packet, 57 bytes on wire (456 bits), 57 bytes captured (456 bits) on interface \Device\NPF_{F4ADB386-60D9-4E48-ACB9-89867C80FC44}, id 0
+Ethernet II, Src: HP_5c:c7:13 (24:6a:0e:5c:c7:13), Dst: DataLogic_4d:db:c8 (00:07:be:4d:db:c8)
+Internet Protocol Version 4, Src: 192.168.187.214, Dst: 192.168.187.31
+Transmission Control Protocol, Src Port: 56698, Dst Port: 51000, Seq: 15, Ack: 82, Len: 3
+Data (3 bytes)
+
+0000  24 61 0d                                          $a.
+    Data: 24610d
+    [Length: 3]
+
+No.     Time           Source                Destination           Protocol Length Info
+     24 2.750120       192.168.187.31        192.168.187.214       TCP      60     51000 → 56698 [ACK] Seq=82 Ack=18 Win=2903 Len=0
+
+Frame 24: Packet, 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface \Device\NPF_{F4ADB386-60D9-4E48-ACB9-89867C80FC44}, id 0
+Ethernet II, Src: DataLogic_4d:db:c8 (00:07:be:4d:db:c8), Dst: HP_5c:c7:13 (24:6a:0e:5c:c7:13)
+Internet Protocol Version 4, Src: 192.168.187.31, Dst: 192.168.187.214
+Transmission Control Protocol, Src Port: 51000, Dst Port: 56698, Seq: 82, Ack: 18, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     25 3.087449       192.168.187.31        192.168.187.214       TCP      1514   51000 → 56698 [ACK] Seq=82 Ack=18 Win=2903 Len=1460
+
+Frame 25: Packet, 1514 bytes on wire (12112 bits), 1514 bytes captured (12112 bits) on interface \Device\NPF_{F4ADB386-60D9-4E48-ACB9-89867C80FC44}, id 0
+Ethernet II, Src: DataLogic_4d:db:c8 (00:07:be:4d:db:c8), Dst: HP_5c:c7:13 (24:6a:0e:5c:c7:13)
+Internet Protocol Version 4, Src: 192.168.187.31, Dst: 192.168.187.214
+Transmission Control Protocol, Src Port: 51000, Dst Port: 56698, Seq: 82, Ack: 18, Len: 1460
+Data (1460 bytes)
+
+0000  24 3e 42 54 42 4d 30 30 2c 42 54 42 44 30 38 2c   $>BTBM00,BTBD08,
+0010  42 54 42 46 30 32 2c 42 54 42 56 30 32 2c 42 54   BTBF02,BTBV02,BT
+0020  44 42 30 31 2c 42 54 41 42 30 31 2c 42 54 41 53   DB01,BTAB01,BTAS
+0030  30 30 2c 42 54 41 44 30 30 2c 42 54 4c 42 30 30   00,BTAD00,BTLB00
+0040  2c 53 54 54 58 30 30 2c 53 54 50 54 30 32 2c 46   ,STTX00,STPT02,F
+0050  41 50 4d 30 31 2c 53 4e 52 4d 30 30 2c 53 4e 45   APM01,SNRM00,SNE
+0060  54 30 35 2c 53 4c 50 53 30 33 2c 53 4c 54 4f 30   T05,SLPS03,SLTO0
+0070  41 2c 53 4d 46 4c 30 30 2c 53 4d 53 45 30 31 2c   A,SMFL00,SMSE01,
+0080  44 47 54 31 30 30 2c 44 47 54 32 36 34 2c 44 47   DGT100,DGT264,DG
+0090  54 33 30 30 2c 49 46 4f 31 30 30 2c 42 50 4c 45   T300,IFO100,BPLE
+00a0  30 38 2c 42 50 56 4f 30 33 2c 42 50 46 52 30 31   08,BPVO03,BPFR01
+00b0  2c 42 50 49 4e 30 30 2c 42 50 50 55 30 31 2c 42   ,BPIN00,BPPU01,B
+00c0  50 4e 46 30 31 2c 53 4e 44 52 33 43 2c 49 46 4d   PNF01,SNDR3C,IFM
+00d0  4c 30 30 2c 49 46 49 48 30 30 2c 49 42 55 54 30   L00,IFIH00,IBUT0
+00e0  31 2c 53 4e 4c 47 30 30 2c 46 41 4f 45 30 30 2c   1,SNLG00,FAOE00,
+00f0  53 50 45 4d 30 31 2c 45 42 43 54 30 31 2c 41 42   SPEM01,EBCT01,AB
+0100  43 54 30 31 2c 38 42 43 54 30 31 2c 33 42 43 54   CT01,8BCT01,3BCT
+0110  30 31 2c 41 42 4e 53 30 31 2c 45 42 4e 53 30 31   01,ABNS01,EBNS01
+0120  2c 33 42 46 31 30 31 2c 52 32 49 43 30 30 2c 4b   ,3BF101,R2IC00,K
+0130  42 43 4f 30 30 2c 4b 42 51 49 30 41 2c 4b 42 53   BCO00,KBQI0A,KBS
+0140  43 30 30 2c 4b 42 43 4c 30 30 2c 4b 42 53 50 30   C00,KBCL00,KBSP0
+0150  31 2c 4b 42 49 44 30 30 2c 4b 42 4e 4c 30 30 2c   1,KBID00,KBNL00,
+0160  55 53 53 45 30 31 2c 52 32 42 41 30 37 2c 52 32   USSE01,R2BA07,R2
+0170  50 41 30 30 2c 52 32 44 41 30 31 2c 52 32 53 54   PA00,R2DA01,R2ST
+0180  30 30 2c 52 32 42 42 30 30 2c 52 32 44 43 34 34   00,R2BB00,R2DC44
+0190  2c 52 32 45 43 34 35 2c 52 32 48 43 30 30 2c 52   ,R2EC45,R2HC00,R
+01a0  32 41 45 30 30 2c 52 32 41 43 30 36 2c 52 32 4e   2AE00,R2AC06,R2N
+01b0  41 31 35 2c 52 32 41 54 30 31 2c 52 32 41 52 30   A15,R2AT01,R2AR0
+01c0  33 2c 52 32 54 46 30 31 2c 52 32 45 48 30 30 2c   3,R2TF01,R2EH00,
+01d0  53 4d 53 44 30 30 2c 41 49 45 4e 30 30 2c 4d 49   SMSD00,AIEN00,MI
+01e0  55 38 30 30 2c 4c 46 43 41 30 30 2c 4c 45 45 4e   U800,LFCA00,LEEN
+01f0  30 30 2c 49 44 43 4f 30 30 2c 41 42 41 49 30 30   00,IDCO00,ABAI00
+0200  2c 45 42 41 49 30 30 2c 38 42 41 49 30 30 2c 33   ,EBAI00,8BAI00,3
+0210  42 41 49 30 30 2c 49 53 41 49 30 30 2c 43 33 41   BAI00,ISAI00,C3A
+0220  49 30 30 2c 50 33 41 49 30 30 2c 49 32 41 49 30   I00,P3AI00,I2AI0
+0230  30 2c 53 32 41 49 30 30 2c 55 32 41 49 30 30 2c   0,S2AI00,U2AI00,
+0240  43 31 41 49 30 30 2c 43 42 41 49 30 30 2c 43 39   C1AI00,CBAI00,C9
+0250  41 49 30 30 2c 50 34 41 49 30 30 2c 4d 49 41 49   AI00,P4AI00,MIAI
+0260  30 30 2c 43 38 41 49 30 30 2c 55 38 41 49 30 31   00,C8AI00,U8AI01
+0270  2c 4d 53 41 49 30 30 2c 42 43 41 49 30 30 2c 34   ,MSAI00,BCAI00,4
+0280  42 41 49 30 30 2c 58 42 41 49 30 30 2c 4c 42 41   BAI00,XBAI00,LBA
+0290  49 30 30 2c 4c 43 41 49 30 30 2c 34 43 41 49 30   I00,LCAI00,4CAI0
+02a0  30 2c 58 43 41 49 30 30 2c 41 32 41 49 30 30 2c   0,XCAI00,A2AI00,
+02b0  41 35 41 49 30 30 2c 45 32 41 49 30 30 2c 45 35   A5AI00,E2AI00,E5
+02c0  41 49 30 30 2c 38 32 41 49 30 30 2c 38 35 41 49   AI00,82AI00,85AI
+02d0  30 30 2c 33 32 41 49 30 30 2c 33 35 41 49 30 30   00,32AI00,35AI00
+02e0  2c 43 46 41 49 30 30 2c 43 43 41 49 30 30 2c 43   ,CFAI00,CCAI00,C
+02f0  32 41 49 30 30 2c 44 32 41 49 30 30 2c 46 32 41   2AI00,D2AI00,F2A
+0300  49 30 30 2c 43 52 41 49 30 30 2c 43 35 41 49 30   I00,CRAI00,C5AI0
+0310  30 2c 49 38 41 49 30 30 2c 4d 32 41 49 30 30 2c   0,I8AI00,M2AI00,
+0320  50 4c 41 49 30 30 2c 41 42 45 4e 30 31 2c 45 42   PLAI00,ABEN01,EB
+0330  45 4e 30 31 2c 38 42 45 4e 30 31 2c 33 42 45 4e   EN01,8BEN01,3BEN
+0340  30 31 2c 33 42 49 53 30 30 2c 33 42 49 4e 30 30   01,3BIS00,3BIN00
+0350  2c 47 42 45 4e 30 30 2c 47 42 41 49 30 30 2c 47   ,GBEN00,GBAI00,G
+0360  32 41 49 30 30 2c 47 35 41 49 30 30 2c 45 42 41   2AI00,G5AI00,EBA
+0370  42 30 30 2c 41 42 33 42 30 30 2c 45 42 33 42 30   B00,AB3B00,EB3B0
+0380  30 2c 38 42 33 42 30 30 2c 41 42 4d 52 30 31 2c   0,8B3B00,ABMR01,
+0390  45 42 4d 52 30 32 2c 38 42 4d 52 30 31 2c 33 42   EBMR02,8BMR01,3B
+03a0  4d 52 30 31 2c 49 4e 4d 52 30 32 2c 50 57 45 4e   MR01,INMR02,PWEN
+03b0  30 30 2c 38 42 53 42 30 38 2c 55 4e 44 41 30 33   00,8BSB08,UNDA03
+03c0  2c 55 4e 44 4c 30 33 2c 41 44 4d 32 30 32 2c 41   ,UNDL03,ADM202,A
+03d0  44 4d 35 30 31 2c 41 44 4f 32 30 30 2c 41 44 4f   DM501,ADO200,ADO
+03e0  35 30 30 2c 41 44 4f 54 30 37 2c 43 50 43 4c 30   500,ADOT07,CPCL0
+03f0  31 2c 43 33 45 4e 30 31 2c 43 33 4d 52 30 32 2c   1,C3EN01,C3MR02,
+0400  43 33 43 43 30 30 2c 43 33 4c 43 30 30 2c 43 33   C3CC00,C3LC00,C3
+0410  46 41 30 30 2c 43 33 43 54 30 31 2c 43 33 53 53   FA00,C3CT01,C3SS
+0420  30 30 2c 43 33 4c 31 30 32 2c 43 33 4c 32 33 32   00,C3L102,C3L232
+0430  2c 50 33 45 4e 30 30 2c 50 33 43 54 30 30 2c 50   ,P3EN00,P3CT00,P
+0440  33 53 53 30 30 2c 43 33 44 41 30 33 2c 43 33 44   3SS00,C3DA03,C3D
+0450  4c 30 33 2c 43 33 49 52 30 34 2c 43 33 4c 4f 30   L03,C3IR04,C3LO0
+0460  30 2c 49 32 45 4e 30 30 2c 49 32 43 43 30 30 2c   0,I2EN00,I2CC00,
+0470  49 32 4c 43 30 30 2c 49 32 4c 31 30 36 2c 49 32   I2LC00,I2L106,I2
+0480  4c 32 33 32 2c 49 32 43 54 30 31 2c 49 32 44 41   L232,I2CT01,I2DA
+0490  30 33 2c 53 32 45 4e 30 30 2c 53 32 43 43 30 30   03,S2EN00,S2CC00
+04a0  2c 53 32 4c 43 30 30 2c 53 32 4c 31 30 38 2c 53   ,S2LC00,S2L108,S
+04b0  32 4c 32 33 32 2c 53 32 43 54 30 31 2c 49 41 45   2L232,S2CT01,IAE
+04c0  4e 30 30 2c 55 32 45 4e 30 30 2c 55 32 43 54 30   N00,U2EN00,U2CT0
+04d0  31 2c 55 32 43 43 30 30 2c 55 32 4c 31 30 36 2c   1,U2CC00,U2L106,
+04e0  55 32 4c 32 33 32 2c 55 32 4c 43 30 30 2c 43 42   U2L232,U2LC00,CB
+04f0  45 4e 30 30 2c 43 42 43 43 30 30 2c 43 42 53 43   EN00,CBCC00,CBSC
+0500  30 33 2c 43 42 53 4d 30 30 2c 43 42 4c 43 30 30   03,CBSM00,CBLC00
+0510  2c 43 42 4c 31 30 33 2c 43 42 4c 32 33 32 2c 43   ,CBL103,CBL232,C
+0520  42 53 53 30 31 2c 43 42 43 54 30 31 2c 43 42 44   BSS01,CBCT01,CBD
+0530  41 30 33 2c 43 42 4c 4f 30 32 2c 43 42 41 42 30   A03,CBLO02,CBAB0
+0540  30 2c 43 42 46 43 30 30 2c 43 42 43 4d 30 30 2c   0,CBFC00,CBCM00,
+0550  43 42 44 54 31 34 2c 43 39 45 4e 30 30 2c 43 39   CBDT14,C9EN00,C9
+0560  4c 43 30 30 2c 43 39 4c 31 30 31 2c 43 39 4c 32   LC00,C9L101,C9L2
+0570  33 32 2c 43 39 43 43 30 33 2c 43 39 43 54 30 30   32,C9CC03,C9CT00
+0580  2c 43 39 4c 4f 30 33 2c 43 38 45 4e 30 31 2c 43   ,C9LO03,C8EN01,C
+0590  38 4d 52 30 31 2c 43 38 54 46 30 30 2c 43 38 4c   8MR01,C8TF00,C8L
+05a0  43 30 30 2c 43 38 4c 31 30 31 2c 43 38 4c 32 35   C00,C8L101,C8L25
+05b0  30 2c 55 38                                       0,U8
+    Data […]: 243e4254424d30302c4254424430382c4254424630322c4254425630322c4254444230312c4254414230312c4254415330302c4254414430302c42544c4230302c5354545830302c5354505430322c4641504d30312c534e524d30302c534e455430352c534c505330332c534c544f30412
+    [Length: 1460]
+
+No.     Time           Source                Destination           Protocol Length Info
+     26 3.087550       192.168.187.214       192.168.187.31        TCP      54     56698 → 51000 [ACK] Seq=18 Ack=1542 Win=65535 Len=0
+
+Frame 26: Packet, 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{F4ADB386-60D9-4E48-ACB9-89867C80FC44}, id 0
+Ethernet II, Src: HP_5c:c7:13 (24:6a:0e:5c:c7:13), Dst: DataLogic_4d:db:c8 (00:07:be:4d:db:c8)
+Internet Protocol Version 4, Src: 192.168.187.214, Dst: 192.168.187.31
+Transmission Control Protocol, Src Port: 56698, Dst Port: 51000, Seq: 18, Ack: 1542, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     27 3.087870       192.168.187.31        192.168.187.214       TCP      66     51000 → 56698 [PSH, ACK] Seq=1542 Ack=18 Win=2903 Len=12
+
+Frame 27: Packet, 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface \Device\NPF_{F4ADB386-60D9-4E48-ACB9-89867C80FC44}, id 0
+Ethernet II, Src: DataLogic_4d:db:c8 (00:07:be:4d:db:c8), Dst: HP_5c:c7:13 (24:6a:0e:5c:c7:13)
+Internet Protocol Version 4, Src: 192.168.187.31, Dst: 192.168.187.214
+Transmission Control Protocol, Src Port: 51000, Dst Port: 56698, Seq: 1542, Ack: 18, Len: 12
+Data (12 bytes)
+
+0000  45 4e 30 31 2c 43 38 43 33 30 30 2c               EN01,C8C300,
+    Data: 454e30312c4338433330302c
+    [Length: 12]
+
+No.     Time           Source                Destination           Protocol Length Info
+     28 3.087938       192.168.187.214       192.168.187.31        TCP      54     56698 → 51000 [ACK] Seq=18 Ack=1554 Win=65523 Len=0
+
+Frame 28: Packet, 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{F4ADB386-60D9-4E48-ACB9-89867C80FC44}, id 0
+Ethernet II, Src: HP_5c:c7:13 (24:6a:0e:5c:c7:13), Dst: DataLogic_4d:db:c8 (00:07:be:4d:db:c8)
+Internet Protocol Version 4, Src: 192.168.187.214, Dst: 192.168.187.31
+Transmission Control Protocol, Src Port: 56698, Dst Port: 51000, Seq: 18, Ack: 1554, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     29 3.142455       192.168.187.31        192.168.187.214       TCP      1514   51000 → 56698 [ACK] Seq=1554 Ack=18 Win=2903 Len=1460
+
+Frame 29: Packet, 1514 bytes on wire (12112 bits), 1514 bytes captured (12112 bits) on interface \Device\NPF_{F4ADB386-60D9-4E48-ACB9-89867C80FC44}, id 0
+Ethernet II, Src: DataLogic_4d:db:c8 (00:07:be:4d:db:c8), Dst: HP_5c:c7:13 (24:6a:0e:5c:c7:13)
+Internet Protocol Version 4, Src: 192.168.187.31, Dst: 192.168.187.214
+Transmission Control Protocol, Src Port: 51000, Dst Port: 56698, Seq: 1554, Ack: 18, Len: 1460
+Data (1460 bytes)
+
+0000  43 38 4c 4f 30 33 2c 43 38 44 4c 30 33 2c 43 38   C8LO03,C8DL03,C8
+0010  44 41 30 33 2c 43 38 43 54 30 30 2c 43 31 43 54   DA03,C8CT00,C1CT
+0020  30 31 2c 43 31 45 4e 30 30 2c 43 31 4c 31 30 34   01,C1EN00,C1L104
+0030  2c 43 31 4c 32 33 32 2c 43 31 4c 43 30 30 2c 43   ,C1L232,C1LC00,C
+0040  31 43 43 30 33 2c 42 43 43 43 30 31 2c 42 43 43   1CC03,BCCC01,BCC
+0050  54 30 31 2c 42 43 45 4e 30 30 2c 42 43 4c 31 30   T01,BCEN00,BCL10
+0060  31 2c 42 43 4c 32 33 32 2c 42 43 4c 43 30 30 2c   1,BCL232,BCLC00,
+0070  47 42 47 54 30 32 2c 53 4e 48 53 30 31 2c 50 34   GBGT02,SNHS01,P4
+0080  45 4e 30 31 2c 53 4e 48 44 30 30 2c 50 34 4c 43   EN01,SNHD00,P4LC
+0090  30 30 2c 50 34 44 53 30 31 2c 4d 49 45 4e 30 30   00,P4DS01,MIEN00
+00a0  2c 4d 49 4c 43 30 30 2c 4e 32 45 4e 30 30 2c 4e   ,MILC00,N2EN00,N
+00b0  32 4d 52 30 31 2c 4e 32 43 54 30 30 2c 58 42 4c   2MR01,N2CT00,XBL
+00c0  43 30 30 2c 58 42 4c 31 30 31 2c 58 42 4c 32 34   C00,XBL101,XBL24
+00d0  41 2c 34 42 45 4e 30 30 2c 34 42 32 44 30 30 2c   A,4BEN00,4B2D00,
+00e0  34 42 55 38 30 30 2c 58 42 45 4e 30 30 2c 58 42   4BU800,XBEN00,XB
+00f0  32 44 30 30 2c 58 42 55 38 30 30 2c 4c 42 45 4e   2D00,XBU800,LBEN
+0100  30 30 2c 4c 42 32 44 30 30 2c 4c 42 55 38 30 30   00,LB2D00,LBU800
+0110  2c 43 43 45 4e 30 30 2c 43 48 45 4e 30 30 2c 43   ,CCEN00,CHEN00,C
+0120  46 45 4e 30 30 2c 43 46 4c 31 30 33 2c 43 46 4c   FEN00,CFL103,CFL
+0130  32 36 34 2c 43 46 4c 43 30 30 2c 43 32 43 43 30   264,CFLC00,C2CC0
+0140  30 2c 43 32 43 54 30 31 2c 43 32 45 4e 30 30 2c   0,C2CT01,C2EN00,
+0150  43 32 4c 31 30 31 2c 43 32 4c 32 33 32 2c 43 32   C2L101,C2L232,C2
+0160  4c 43 30 30 2c 44 32 43 43 30 30 2c 44 32 43 54   LC00,D2CC00,D2CT
+0170  30 31 2c 44 32 45 4e 30 30 2c 44 32 4c 31 30 36   01,D2EN00,D2L106
+0180  2c 44 32 4c 32 33 32 2c 44 32 4c 43 30 30 2c 46   ,D2L232,D2LC00,F
+0190  32 45 4e 30 30 2c 43 52 45 4e 30 30 2c 43 35 45   2EN00,CREN00,C5E
+01a0  4e 30 30 2c 53 4e 46 46 30 36 2c 53 4e 46 4e 30   N00,SNFF06,SNFN0
+01b0  41 2c 42 50 54 59 30 30 2c 4c 53 53 50 30 31 2c   A,BPTY00,LSSP01,
+01c0  4c 41 47 4c 30 33 2c 44 49 46 53 30 30 2c 44 49   LAGL03,DIFS00,DI
+01d0  42 4c 30 30 2c 44 49 4d 44 30 31 2c 44 49 4f 54   BL00,DIMD01,DIOT
+01e0  30 38 2c 44 49 43 54 31 30 2c 49 38 43 45 30 30   08,DICT10,I8CE00
+01f0  2c 49 38 43 4d 30 30 2c 49 38 44 54 31 34 2c 49   ,I8CM00,I8DT14,I
+0200  38 46 43 30 30 2c 4d 32 43 43 30 30 2c 4d 32 43   8FC00,M2CC00,M2C
+0210  54 30 31 2c 4d 32 45 4e 30 30 2c 4d 32 4c 31 30   T01,M2EN00,M2L10
+0220  31 2c 4d 32 4c 32 33 32 2c 4d 32 4c 43 30 30 2c   1,M2L232,M2LC00,
+0230  4d 53 43 43 30 31 2c 4d 53 43 54 30 31 2c 4d 53   MSCC01,MSCT01,MS
+0240  45 4e 30 30 2c 4d 53 4c 31 30 31 2c 4d 53 4c 32   EN00,MSL101,MSL2
+0250  33 32 2c 4d 53 4c 43 30 30 2c 50 4c 43 43 30 31   32,MSLC00,PLCC01
+0260  2c 50 4c 43 54 30 31 2c 50 4c 45 4e 30 30 2c 50   ,PLCT01,PLEN00,P
+0270  4c 4c 31 30 31 2c 50 4c 4c 32 33 32 2c 50 4c 4c   LL101,PLL232,PLL
+0280  43 30 30 2c 55 38 32 44 30 30 2c 33 42 32 44 30   C00,U82D00,3B2D0
+0290  30 2c 38 42 32 44 30 30 2c 43 4d 4f 54 30 37 2c   0,8B2D00,CMOT07,
+02a0  41 42 32 44 30 30 2c 45 42 32 44 30 30 2c 49 4e   AB2D00,EB2D00,IN
+02b0  41 49 30 30 2c 41 50 41 49 30 30 2c 49 41 41 49   AI00,APAI00,IAAI
+02c0  30 30 2c 49 41 43 54 30 31 2c 41 43 41 49 30 30   00,IACT01,ACAI00
+02d0  2c 48 52 41 49 30 30 2c 42 54 54 44 30 30 2c 4b   ,HRAI00,BTTD00,K
+02e0  42 4b 50 30 30 2c 44 4d 45 4e 30 31 2c 44 4d 4c   BKP00,DMEN01,DML
+02f0  43 30 30 2c 44 4d 41 49 30 30 2c 4d 58 45 4e 30   C00,DMAI00,MXEN0
+0300  30 2c 4d 58 4c 43 30 30 2c 4d 58 41 49 30 30 2c   0,MXLC00,MXAI00,
+0310  51 52 45 4e 30 31 2c 51 52 4c 43 30 30 2c 51 52   QREN01,QRLC00,QR
+0320  41 49 30 30 2c 41 5a 45 4e 30 31 2c 41 5a 4c 43   AI00,AZEN01,AZLC
+0330  30 30 2c 41 5a 41 49 30 30 2c 53 50 4d 47 30 31   00,AZAI00,SPMG01
+0340  2c 53 4e 50 45 30 31 2c 55 43 41 49 30 30 2c 33   ,SNPE01,UCAI00,3
+0350  43 41 49 30 30 2c 38 43 41 49 30 30 2c 41 55 41   CAI00,8CAI00,AUA
+0360  49 30 30 2c 45 43 41 49 30 30 2c 4d 4f 54 4f 31   I00,ECAI00,MOTO1
+0370  34 2c 4d 4f 4d 44 30 31 2c 4d 4f 53 59 30 31 2c   4,MOMD01,MOSY01,
+0380  49 50 4c 45 30 31 2c 49 50 4c 44 30 30 2c 53 4e   IPLE01,IPLD00,SN
+0390  54 4d 30 34 2c 53 4e 4f 47 30 32 2c 49 50 42 44   TM04,SNOG02,IPBD
+03a0  30 30 2c 49 50 42 56 31 39 2c 49 50 43 44 30 30   00,IPBV19,IPCD00
+03b0  2c 49 50 43 4c 30 33 2c 49 50 43 56 31 39 2c 49   ,IPCL03,IPCV19,I
+03c0  50 46 49 30 30 2c 49 50 51 46 31 45 2c 49 50 52   PFI00,IPQF1E,IPR
+03d0  53 30 32 2c 53 4e 50 4d 30 30 2c 53 50 49 43 30   S02,SNPM00,SPIC0
+03e0  30 2c 41 5a 4d 46 30 30 2c 44 45 53 41 30 30 2c   0,AZMF00,DESA00,
+03f0  43 53 45 4e 30 30 2c 43 53 41 49 30 30 2c 4d 51   CSEN00,CSAI00,MQ
+0400  45 4e 30 30 2c 4d 58 50 54 30 30 2c 50 34 4d 46   EN00,MXPT00,P4MF
+0410  30 30 2c 50 4f 42 42 30 30 2c 50 4f 45 4e 30 30   00,POBB00,POEN00
+0420  2c 51 52 4d 46 30 30 2c 54 41 41 50 30 31 2c 53   ,QRMF00,TAAP01,S
+0430  4e 4d 4c 30 30 2c 53 4e 4d 54 30 30 2c 44 45 54   NML00,SNMT00,DET
+0440  50 30 33 2c 50 41 41 49 30 30 2c 50 4b 41 49 30   P03,PAAI00,PKAI0
+0450  30 2c 50 4a 41 49 30 30 2c 50 52 41 49 30 30 2c   0,PJAI00,PRAI00,
+0460  50 50 41 49 30 30 2c 50 42 41 49 30 30 2c 50 4d   PPAI00,PBAI00,PM
+0470  41 49 30 30 2c 50 53 41 49 30 30 2c 50 47 41 49   AI00,PSAI00,PGAI
+0480  30 30 2c 43 53 4c 43 30 30 2c 42 54 44 4c 30 30   00,CSLC00,BTDL00
+0490  2c 43 54 45 4e 30 30 2c 43 54 41 49 30 30 2c 50   ,CTEN00,CTAI00,P
+04a0  5a 45 4e 30 30 2c 4c 50 45 4e 30 30 2c 44 50 45   ZEN00,LPEN00,DPE
+04b0  4e 30 30 2c 44 43 45 4e 30 30 2c 44 4d 44 41 30   N00,DCEN00,DMDA0
+04c0  31 2c 43 37 41 49 30 30 2c 49 50 4e 52 30 32 2c   1,C7AI00,IPNR02,
+04d0  4d 51 4c 43 30 30 2c 4d 51 41 49 30 30 2c 42 54   MQLC00,MQAI00,BT
+04e0  50 53 30 30 2c 55 4e 4c 4f 30 35 2c 50 34 5a 4c   PS00,UNLO05,P4ZL
+04f0  30 30 2c 53 4d 56 53 30 30 2c 47 44 41 49 30 30   00,SMVS00,GDAI00
+0500  2c 47 51 41 49 30 30 2c 44 44 42 45 30 30 2c 52   ,GQAI00,DDBE00,R
+0510  46 54 53 30 30 2c 52 46 54 44 30 30 2c 44 54 58   FTS00,RFTD00,DTX
+0520  46 30 30 2c 54 54 58 46 30 30 2c 50 57 45 49 30   F00,TTXF00,PWEI0
+0530  30 2c 50 57 45 48 30 30 2c 50 57 45 4b 30 30 2c   0,PWEH00,PWEK00,
+0540  50 57 46 57 30 30 2c 44 49 41 43 30 31 2c 50 57   PWFW00,DIAC01,PW
+0550  4e 54 30 31 2c 50 57 53 41 30 30 2c 42 54 48 4b   NT01,PWSA00,BTHK
+0560  30 30 2c 42 54 48 50 30 30 2c 42 54 50 50 30 30   00,BTHP00,BTPP00
+0570  2c 42 42 45 4e 30 31 2c 43 4e 41 53 30 30 2c 43   ,BBEN01,CNAS00,C
+0580  4e 41 44 30 30 2c 44 49 53 4d 30 30 2c 44 49 53   NAD00,DISM00,DIS
+0590  54 30 32 2c 50 57 4b 45 30 30 2c 44 49 54 53 30   T02,PWKE00,DITS0
+05a0  30 2c 50 57 44 46 30 30 2c 4c 4f 47 47 30 41 2c   0,PWDF00,LOGG0A,
+05b0  52 42 47 45                                       RBGE
+    Data […]: 43384c4f30332c4338444c30332c4338444130332c4338435430302c4331435430312c4331454e30302c43314c3130342c43314c3233322c43314c4330302c4331434330332c4243434330312c4243435430312c4243454e30302c42434c3130312c42434c3233322c42434c4330302c474
+    [Length: 1460]
+
+No.     Time           Source                Destination           Protocol Length Info
+     30 3.142514       192.168.187.214       192.168.187.31        TCP      54     56698 → 51000 [ACK] Seq=18 Ack=3014 Win=65535 Len=0
+
+Frame 30: Packet, 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{F4ADB386-60D9-4E48-ACB9-89867C80FC44}, id 0
+Ethernet II, Src: HP_5c:c7:13 (24:6a:0e:5c:c7:13), Dst: DataLogic_4d:db:c8 (00:07:be:4d:db:c8)
+Internet Protocol Version 4, Src: 192.168.187.214, Dst: 192.168.187.31
+Transmission Control Protocol, Src Port: 56698, Dst Port: 51000, Seq: 18, Ack: 3014, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     31 3.142806       192.168.187.31        192.168.187.214       TCP      66     51000 → 56698 [PSH, ACK] Seq=3014 Ack=18 Win=2903 Len=12
+
+Frame 31: Packet, 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface \Device\NPF_{F4ADB386-60D9-4E48-ACB9-89867C80FC44}, id 0
+Ethernet II, Src: DataLogic_4d:db:c8 (00:07:be:4d:db:c8), Dst: HP_5c:c7:13 (24:6a:0e:5c:c7:13)
+Internet Protocol Version 4, Src: 192.168.187.31, Dst: 192.168.187.214
+Transmission Control Protocol, Src Port: 51000, Dst Port: 56698, Seq: 3014, Ack: 18, Len: 12
+Data (12 bytes)
+
+0000  30 31 2c 52 42 43 4c 30 31 2c 49 50               01,RBCL01,IP
+    Data: 30312c5242434c30312c4950
+    [Length: 12]
+
+No.     Time           Source                Destination           Protocol Length Info
+     32 3.142838       192.168.187.214       192.168.187.31        TCP      54     56698 → 51000 [ACK] Seq=18 Ack=3026 Win=65523 Len=0
+
+Frame 32: Packet, 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{F4ADB386-60D9-4E48-ACB9-89867C80FC44}, id 0
+Ethernet II, Src: HP_5c:c7:13 (24:6a:0e:5c:c7:13), Dst: DataLogic_4d:db:c8 (00:07:be:4d:db:c8)
+Internet Protocol Version 4, Src: 192.168.187.214, Dst: 192.168.187.31
+Transmission Control Protocol, Src Port: 56698, Dst Port: 51000, Seq: 18, Ack: 3026, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     33 3.197437       192.168.187.31        192.168.187.214       TCP      1514   51000 → 56698 [ACK] Seq=3026 Ack=18 Win=2903 Len=1460
+
+Frame 33: Packet, 1514 bytes on wire (12112 bits), 1514 bytes captured (12112 bits) on interface \Device\NPF_{F4ADB386-60D9-4E48-ACB9-89867C80FC44}, id 0
+Ethernet II, Src: DataLogic_4d:db:c8 (00:07:be:4d:db:c8), Dst: HP_5c:c7:13 (24:6a:0e:5c:c7:13)
+Internet Protocol Version 4, Src: 192.168.187.31, Dst: 192.168.187.214
+Transmission Control Protocol, Src Port: 51000, Dst Port: 56698, Seq: 3026, Ack: 18, Len: 1460
+Data (1460 bytes)
+
+0000  57 4c 36 34 2c 49 43 45 4e 30 31 2c 49 50 4c 52   WL64,ICEN01,IPLR
+0010  30 30 2c 41 52 4d 52 30 30 2c 45 4e 43 4f 30 30   00,ARMR00,ENCO00
+0020  2c 4f 43 50 54 30 31 2c 55 53 54 4d 31 34 2c 44   ,OCPT01,USTM14,D
+0030  4c 44 45 30 31 2c 44 49 53 57 30 30 2c 44 4d 41   LDE01,DISW00,DMA
+0040  53 30 31 2c 44 49 43 4d 30 30 2c 56 42 47 4c 30   S01,DICM00,VBGL0
+0050  30 2c 42 54 43 52 30 30 2c 42 54 53 46 30 30 2c   0,BTCR00,BTSF00,
+0060  42 41 4c 4c 30 32 2c 42 41 4c 48 36 34 2c 42 54   BALL02,BALH64,BT
+0070  53 4c 30 31 2c 42 54 44 54 30 32 2c 56 42 47 45   SL01,BTDT02,VBGE
+0080  30 31 2c 42 41 4c 4f 30 31 2c 49 32 53 4d 30 30   01,BALO01,I2SM00
+0090  2c 49 32 46 4d 30 30 2c 49 32 4c 4d 30 30 2c 55   ,I2FM00,I2LM00,U
+00a0  4f 53 45 30 30 2c 45 44 46 43 30 31 2c 50 52 50   OSE00,EDFC01,PRP
+00b0  43 30 31 2c 50 52 43 54 30 30 2c 44 4c 47 45 30   C01,PRCT00,DLGE0
+00c0  31 2c 44 43 48 53 30 31 2c 44 43 4d 49 30 31 2c   1,DCHS01,DCMI01,
+00d0  44 43 4d 41 31 30 2c 44 43 43 50 30 30 2c 42 41   DCMA10,DCCP00,BA
+00e0  4c 4d 33 32 2c 49 32 46 45 30 30 2c 53 49 54 46   LM32,I2FE00,SITF
+00f0  34 37 2c 43 4d 4f 38 30 37 2c 55 4c 50 45 30 31   47,CMO807,ULPE01
+0100  2c 44 54 54 57 43 38 2c 44 54 54 4c 34 30 2c 44   ,DTTWC8,DTTL40,D
+0110  54 4c 41 33 32 2c 44 54 54 48 33 30 2c 42 43 48   TLA32,DTTH30,BCH
+0120  50 30 30 2c 42 4c 41 52 30 31 2c 4f 43 4d 55 30   P00,BLAR01,OCMU0
+0130  31 2c 4f 43 43 46 33 37 2c 46 53 45 4e 30 31 2c   1,OCCF37,FSEN01,
+0140  52 32 41 4c 30 30 2c 50 31 45 4e 30 30 2c 50 31   R2AL00,P1EN00,P1
+0150  44 49 30 30 2c 50 31 4c 31 30 32 2c 50 31 4c 32   DI00,P1L102,P1L2
+0160  30 36 2c 50 31 4c 43 30 30 2c 52 46 50 50 30 30   06,P1LC00,RFPP00
+0170  2c 50 31 41 49 30 30 2c 4f 41 41 49 30 30 2c 4f   ,P1AI00,OAAI00,O
+0180  42 41 49 30 30 2c 4f 4d 41 49 30 30 2c 44 57 45   BAI00,OMAI00,DWE
+0190  4e 30 30 2c 44 57 53 43 30 33 2c 44 57 41 49 30   N00,DWSC03,DWAI0
+01a0  30 2c 49 50 41 47 30 31 2c 44 43 41 49 30 30 2c   0,IPAG01,DCAI00,
+01b0  53 4e 54 52 30 31 2c 44 43 4c 43 30 30 2c 42 50   SNTR01,DCLC00,BP
+01c0  43 45 30 31 2c 51 52 45 54 30 31 2c 41 5a 45 54   CE01,QRET01,AZET
+01d0  30 31 2c 44 4d 45 54 30 31 2c 4d 49 45 54 30 31   01,DMET01,MIET01
+01e0  2c 50 34 45 54 30 31 2c 43 53 45 54 30 31 2c 44   ,P4ET01,CSET01,D
+01f0  43 45 54 30 31 2c 4d 58 45 54 30 31 2c 43 4d 45   CET01,MXET01,CME
+0200  54 30 31 2c 54 4c 45 4e 30 30 2c 54 4c 41 49 30   T01,TLEN00,TLAI0
+0210  30 2c 54 4c 4c 43 30 30 2c 53 4d 54 41 36 35 2c   0,TLLC00,SMTA65,
+0220  55 49 54 41 30 30 2c 56 42 50 45 30 30 2c 55 49   UITA00,VBPE00,UI
+0230  53 4d 30 30 2c 42 54 43 42 30 31 2c 52 46 43 41   SM00,BTCB01,RFCA
+0240  30 30 2c 52 46 44 41 30 30 2c 52 46 45 41 30 31   00,RFDA00,RFEA01
+0250  2c 52 46 54 41 30 31 2c 44 4d 45 43 30 30 2c 47   ,RFTA01,DMEC00,G
+0260  53 41 4c 30 30 2c 42 42 46 54 30 32 2c 42 54 41   SAL00,BBFT02,BTA
+0270  43 30 30 2c 4b 42 4d 4c 30 30 2c 42 54 43 50 45   C00,KBML00,BTCPE
+0280  30 2c 53 4e 4c 53 30 31 2c 4b 46 31 31 46 46 2c   0,SNLS01,KF11FF,
+0290  4b 46 31 32 46 46 2c 4b 46 31 33 46 46 2c 4b 46   KF12FF,KF13FF,KF
+02a0  32 31 46 46 2c 4b 46 32 32 46 46 2c 4b 46 32 33   21FF,KF22FF,KF23
+02b0  46 46 2c 4b 46 33 31 46 46 2c 4b 46 34 31 46 46   FF,KF31FF,KF41FF
+02c0  2c 4b 46 35 31 46 46 2c 53 4e 42 4c 30 31 2c 44   ,KF51FF,SNBL01,D
+02d0  44 54 49 33 43 2c 50 57 52 44 30 30 2c 53 4e 53   DTI3C,PWRD00,SNS
+02e0  43 30 30 2c 53 4e 56 52 30 30 2c 4b 46 42 31 30   C00,SNVR00,KFB10
+02f0  31 2c 4b 46 42 32 46 46 2c 4b 46 42 33 46 46 2c   1,KFB2FF,KFB3FF,
+0300  4b 46 42 34 46 46 2c 4b 46 42 35 30 38 2c 42 41   KFB4FF,KFB508,BA
+0310  4c 55 30 37 2c 52 46 48 52 30 30 2c 44 49 42 47   LU07,RFHR00,DIBG
+0320  30 30 2c 43 52 50 42 30 30 2c 49 46 53 54 30 31   00,CRPB00,IFST01
+0330  2c 52 46 55 50 30 30 2c 52 46 41 50 30 30 2c 52   ,RFUP00,RFAP00,R
+0340  46 53 46 30 31 2c 52 46 41 47 30 33 2c 44 49 43   FSF01,RFAG03,DIC
+0350  4b 30 31 2c 53 50 43 4f 30 31 2c 42 57 55 4c 30   K01,SPCO01,BWUL0
+0360  30 2c 44 42 43 53 30 30 2c 50 46 41 49 30 30 2c   0,DBCS00,PFAI00,
+0370  50 49 41 49 30 30 2c 55 4e 46 45 30 31 2c 43 52   PIAI00,UNFE01,CR
+0380  55 45 30 30 2c 52 46 34 45 30 30 2c 52 46 55 44   UE00,RF4E00,RFUD
+0390  30 30 2c 53 4c 4e 50 30 30 2c 53 50 4c 52 36 34   00,SLNP00,SPLR64
+03a0  2c 4b 42 4c 44 30 30 2c 4b 42 43 44 30 30 2c 53   ,KBLD00,KBCD00,S
+03b0  4e 54 47 30 31 2c 49 50 44 47 30 30 2c 49 50 44   NTG01,IPDG00,IPD
+03c0  53 30 30 2c 42 54 4b 44 30 30 2c 44 4d 46 54 30   S00,BTKD00,DMFT0
+03d0  30 2c 52 49 41 49 30 30 2c 49 50 41 44 30 30 2c   0,RIAI00,IPAD00,
+03e0  50 31 4e 42 30 34 2c 47 44 54 4d 30 30 2c 47 44   P1NB04,GDTM00,GD
+03f0  42 53 34 36 2c 47 44 44 52 34 36 2c 47 44 54 46   BS46,GDDR46,GDTF
+0400  30 30 2c 49 50 43 4d 30 30 2c 49 50 46 53 30 30   00,IPCM00,IPFS00
+0410  2c 52 49 45 54 30 33 2c 52 49 42 43 30 30 2c 51   ,RIET03,RIBC00,Q
+0420  52 55 4c 30 31 2c 52 49 52 4f 30 32 2c 52 49 52   RUL01,RIRO02,RIR
+0430  4d 30 30 2c 52 49 51 54 30 36 2c 52 49 51 45 30   M00,RIQT06,RIQE0
+0440  30 2c 52 49 54 43 30 30 2c 52 49 4d 46 30 31 2c   0,RITC00,RIMF01,
+0450  52 49 47 42 30 30 2c 52 49 42 54 30 30 2c 52 49   RIGB00,RIBT00,RI
+0460  42 4c 30 38 2c 52 49 42 56 30 32 2c 52 49 42 46   BL08,RIBV02,RIBF
+0470  30 30 2c 52 49 42 42 30 30 2c 52 49 44 53 30 30   00,RIBB00,RIDS00
+0480  2c 52 49 53 43 32 43 2c 52 49 4f 49 30 30 2c 52   ,RISC2C,RIOI00,R
+0490  49 44 43 32 43 2c 52 42 54 43 30 31 2c 44 4e 30   IDC2C,RBTC01,DN0
+04a0  31 30 30 2c 44 4e 30 32 30 30 2c 44 4e 30 33 30   100,DN0200,DN030
+04b0  30 2c 44 4e 30 34 30 30 2c 44 4e 30 35 30 30 2c   0,DN0400,DN0500,
+04c0  44 4e 30 36 30 30 2c 44 4e 30 37 30 30 2c 44 4e   DN0600,DN0700,DN
+04d0  30 38 30 30 2c 44 4e 30 39 30 30 2c 44 4e 31 30   0800,DN0900,DN10
+04e0  30 30 2c 46 41 4d 43 33 30 33 30 33 30 33 30 33   00,FAMC303030303
+04f0  31 2c 52 46 34 43 46 46 46 46 46 46 46 46 2c 42   1,RF4CFFFFFFFF,B
+0500  4d 44 45 30 30 2c 42 54 50 46 30 30 2c 42 53 50   MDE00,BTPF00,BSP
+0510  44 30 30 2c 42 54 4c 44 30 30 2c 41 44 43 31 33   D00,BTLD00,ADC13
+0520  37 38 30 2c 41 44 43 32 33 37 39 30 2c 41 44 43   780,ADC23790,ADC
+0530  33 39 37 37 30 2c 41 44 43 34 39 37 38 30 2c 49   39770,ADC49780,I
+0540  38 4c 30 30 30 30 30 2c 49 38 4c 31 30 30 30 30   8L00000,I8L10000
+0550  2c 49 38 4c 32 30 30 30 30 2c 49 38 4c 33 30 30   ,I8L20000,I8L300
+0560  30 30 2c 49 38 4c 34 30 30 30 30 2c 49 38 4c 35   00,I8L40000,I8L5
+0570  30 30 30 30 2c 49 38 4c 36 30 30 30 30 2c 49 38   0000,I8L60000,I8
+0580  4c 37 30 30 30 30 2c 49 38 4c 38 30 30 30 30 2c   L70000,I8L80000,
+0590  49 38 4c 39 30 30 30 30 2c 49 38 4c 41 30 30 30   I8L90000,I8LA000
+05a0  30 2c 49 38 4c 42 30 30 30 30 2c 49 38 4c 43 30   0,I8LB0000,I8LC0
+05b0  30 30 30 2c                                       000,
+    Data […]: 574c36342c4943454e30312c49504c5230302c41524d5230302c454e434f30302c4f43505430312c5553544d31342c444c444530312c4449535730302c444d415330312c4449434d30302c5642474c30302c4254435230302c4254534630302c42414c4c30322c42414c4836342c4254534
+    [Length: 1460]
+
+No.     Time           Source                Destination           Protocol Length Info
+     34 3.197479       192.168.187.214       192.168.187.31        TCP      54     56698 → 51000 [ACK] Seq=18 Ack=4486 Win=65535 Len=0
+
+Frame 34: Packet, 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{F4ADB386-60D9-4E48-ACB9-89867C80FC44}, id 0
+Ethernet II, Src: HP_5c:c7:13 (24:6a:0e:5c:c7:13), Dst: DataLogic_4d:db:c8 (00:07:be:4d:db:c8)
+Internet Protocol Version 4, Src: 192.168.187.214, Dst: 192.168.187.31
+Transmission Control Protocol, Src Port: 56698, Dst Port: 51000, Seq: 18, Ack: 4486, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     35 3.197764       192.168.187.31        192.168.187.214       TCP      66     51000 → 56698 [PSH, ACK] Seq=4486 Ack=18 Win=2903 Len=12
+
+Frame 35: Packet, 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface \Device\NPF_{F4ADB386-60D9-4E48-ACB9-89867C80FC44}, id 0
+Ethernet II, Src: DataLogic_4d:db:c8 (00:07:be:4d:db:c8), Dst: HP_5c:c7:13 (24:6a:0e:5c:c7:13)
+Internet Protocol Version 4, Src: 192.168.187.31, Dst: 192.168.187.214
+Transmission Control Protocol, Src Port: 51000, Dst Port: 56698, Seq: 4486, Ack: 18, Len: 12
+Data (12 bytes)
+
+0000  49 38 4c 44 30 30 30 30 2c 49 38 4c               I8LD0000,I8L
+    Data: 49384c44303030302c49384c
+    [Length: 12]
+
+No.     Time           Source                Destination           Protocol Length Info
+     36 3.197796       192.168.187.214       192.168.187.31        TCP      54     56698 → 51000 [ACK] Seq=18 Ack=4498 Win=65523 Len=0
+
+Frame 36: Packet, 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{F4ADB386-60D9-4E48-ACB9-89867C80FC44}, id 0
+Ethernet II, Src: HP_5c:c7:13 (24:6a:0e:5c:c7:13), Dst: DataLogic_4d:db:c8 (00:07:be:4d:db:c8)
+Internet Protocol Version 4, Src: 192.168.187.214, Dst: 192.168.187.31
+Transmission Control Protocol, Src Port: 56698, Dst Port: 51000, Seq: 18, Ack: 4498, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     37 3.252415       192.168.187.31        192.168.187.214       TCP      1514   51000 → 56698 [ACK] Seq=4498 Ack=18 Win=2903 Len=1460
+
+Frame 37: Packet, 1514 bytes on wire (12112 bits), 1514 bytes captured (12112 bits) on interface \Device\NPF_{F4ADB386-60D9-4E48-ACB9-89867C80FC44}, id 0
+Ethernet II, Src: DataLogic_4d:db:c8 (00:07:be:4d:db:c8), Dst: HP_5c:c7:13 (24:6a:0e:5c:c7:13)
+Internet Protocol Version 4, Src: 192.168.187.31, Dst: 192.168.187.214
+Transmission Control Protocol, Src Port: 51000, Dst Port: 56698, Seq: 4498, Ack: 18, Len: 1460
+Data (1460 bytes)
+
+0000  45 30 30 30 30 2c 49 38 4c 46 30 30 30 30 2c 43   E0000,I8LF0000,C
+0010  53 4c 31 30 30 30 31 2c 43 53 4c 32 31 45 39 33   SL10001,CSL21E93
+0020  2c 41 5a 4c 31 30 30 30 31 2c 41 5a 4c 32 30 45   ,AZL10001,AZL20E
+0030  46 38 2c 44 43 4c 31 30 30 30 33 2c 44 43 4c 32   F8,DCL10003,DCL2
+0040  30 30 33 32 2c 44 4d 44 4d 33 46 46 46 46 46 46   0032,DMDM3FFFFFF
+0050  46 2c 44 4d 4c 31 30 30 30 31 2c 44 4d 4c 32 30   F,DML10001,DML20
+0060  43 32 43 2c 4d 49 4c 31 30 30 30 31 2c 4d 49 4c   C2C,MIL10001,MIL
+0070  32 30 31 36 45 2c 4d 51 4c 31 30 30 30 31 2c 4d   2016E,MQL10001,M
+0080  51 4c 32 30 30 32 33 2c 4d 58 4c 31 30 30 30 31   QL20023,MXL10001
+0090  2c 4d 58 4c 32 30 30 39 31 2c 4f 43 45 4e 30 30   ,MXL20091,OCEN00
+00a0  30 30 30 30 30 30 2c 50 34 4c 31 30 30 30 31 2c   000000,P4L10001,
+00b0  50 34 4c 32 30 41 39 36 2c 51 52 4c 31 30 30 30   P4L20A96,QRL1000
+00c0  31 2c 51 52 4c 32 31 42 42 31 2c 53 4e 4d 53 30   1,QRL21BB1,SNMS0
+00d0  30 30 30 30 30 30 30 30 30 30 30 2c 53 50 45 50   00000000000,SPEP
+00e0  30 31 30 34 2c 44 57 49 44 32 42 30 30 30 30 2c   0104,DWID2B0000,
+00f0  54 4c 49 44 32 34 37 36 30 30 2c 54 4c 4c 31 30   TLID247600,TLL10
+0100  30 30 37 2c 54 4c 4c 32 30 31 37 34 2c 50 31 44   007,TLL20174,P1D
+0110  56 30 30 30 30 30 46 2c 49 50 41 53 30 30 30 30   V00000F,IPAS0000
+0120  30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30   0000000000000000
+0130  30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30   0000000000000000
+0140  30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30   0000000000000000
+0150  30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30   0000000000000000
+0160  30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30   0000000000000000
+0170  30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30   0000000000000000
+0180  30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30   0000000000000000
+0190  30 30 30 30 30 30 30 30 30 30 30 30 2c 49 50 56   000000000000,IPV
+01a0  46 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30   F000000000000000
+01b0  30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30   0000000000000000
+01c0  30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30   0000000000000000
+01d0  30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30   0000000000000000
+01e0  30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30   0000000000000000
+01f0  30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30   0000000000000000
+0200  30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30   0000000000000000
+0210  30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30   0000000000000000
+0220  30 2c 50 46 49 44 32 34 36 36 30 30 2c 50 49 49   0,PFID246600,PII
+0230  44 32 34 34 39 30 30 2c 33 42 49 44 34 36 30 30   D244900,3BID4600
+0240  30 30 2c 33 32 49 44 34 36 30 30 30 30 2c 33 35   00,32ID460000,35
+0250  49 44 34 36 30 30 30 30 2c 33 4d 49 44 34 36 30   ID460000,3MID460
+0260  30 30 30 2c 41 42 49 44 34 31 30 30 30 30 2c 41   000,ABID410000,A
+0270  32 49 44 34 31 30 30 30 30 2c 41 35 49 44 34 31   2ID410000,A5ID41
+0280  30 30 30 30 2c 41 4d 49 44 34 31 30 30 30 30 2c   0000,AMID410000,
+0290  38 42 49 44 34 36 34 36 30 30 2c 38 32 49 44 34   8BID464600,82ID4
+02a0  36 34 36 30 30 2c 38 35 49 44 34 36 34 36 30 30   64600,85ID464600
+02b0  2c 38 4d 49 44 34 36 34 36 30 30 2c 45 42 49 44   ,8MID464600,EBID
+02c0  34 35 30 30 30 30 2c 45 32 49 44 34 35 30 30 30   450000,E2ID45000
+02d0  30 2c 45 35 49 44 34 35 30 30 30 30 2c 45 4d 49   0,E5ID450000,EMI
+02e0  44 34 35 30 30 30 30 2c 49 4e 49 44 36 45 30 30   D450000,INID6E00
+02f0  30 30 2c 49 53 49 44 34 39 30 30 30 30 2c 47 42   00,ISID490000,GB
+0300  49 44 34 37 30 30 30 30 2c 47 32 49 44 34 37 33   ID470000,G2ID473
+0310  32 30 30 2c 47 35 49 44 34 37 33 35 30 30 2c 34   200,G5ID473500,4
+0320  42 49 44 35 32 33 34 30 30 2c 34 43 49 44 35 32   BID523400,4CID52
+0330  33 34 30 30 2c 4c 42 49 44 35 32 34 43 30 30 2c   3400,LBID524C00,
+0340  4c 43 49 44 35 32 34 43 30 30 2c 58 42 49 44 35   LCID524C00,XBID5
+0350  32 35 38 30 30 2c 58 43 49 44 35 32 35 38 30 30   25800,XCID525800
+0360  2c 43 33 49 44 32 41 30 30 30 30 2c 43 43 49 44   ,C3ID2A0000,CCID
+0370  35 39 30 30 30 30 2c 43 54 49 44 32 34 35 34 30   590000,CTID24540
+0380  30 2c 4c 50 49 44 32 34 36 31 30 30 2c 50 5a 49   0,LPID246100,PZI
+0390  44 32 34 35 41 30 30 2c 50 33 49 44 34 31 30 30   D245A00,P3ID4100
+03a0  30 30 2c 43 38 49 44 32 33 30 30 30 30 2c 55 38   00,C8ID230000,U8
+03b0  49 44 30 30 30 30 30 30 2c 55 4d 49 44 30 30 30   ID000000,UMID000
+03c0  30 30 30 2c 49 38 49 44 36 36 30 30 30 30 2c 49   000,I8ID660000,I
+03d0  32 49 44 36 39 30 30 30 30 2c 48 52 49 44 36 35   2ID690000,HRID65
+03e0  30 30 30 30 2c 55 32 49 44 35 37 30 30 30 30 2c   0000,U2ID570000,
+03f0  49 41 49 44 34 39 34 31 30 30 2c 53 32 49 44 37   IAID494100,S2ID7
+0400  33 30 30 30 30 2c 4d 32 49 44 36 37 30 30 30 30   30000,M2ID670000
+0410  2c 44 32 49 44 37 33 30 30 30 30 2c 43 37 49 44   ,D2ID730000,C7ID
+0420  32 34 34 45 30 30 2c 43 39 49 44 32 36 30 30 30   244E00,C9ID26000
+0430  30 2c 50 31 49 44 35 45 37 30 30 30 2c 50 47 49   0,P1ID5E7000,PGI
+0440  44 32 34 35 30 30 30 2c 50 4a 49 44 32 34 35 32   D245000,PJID2452
+0450  30 30 2c 50 4b 49 44 32 34 35 35 30 30 2c 50 4d   00,PKID245500,PM
+0460  49 44 32 34 35 36 30 30 2c 50 4e 49 44 32 34 34   ID245600,PNID244
+0470  43 30 30 2c 50 50 49 44 32 34 35 37 30 30 2c 50   C00,PPID245700,P
+0480  53 49 44 32 34 35 38 30 30 2c 50 52 49 44 32 34   SID245800,PRID24
+0490  34 44 30 30 2c 50 41 49 44 32 34 34 42 30 30 2c   4D00,PAID244B00,
+04a0  43 42 49 44 32 35 30 30 30 30 2c 43 53 49 44 32   CBID250000,CSID2
+04b0  34 35 33 30 30 2c 44 50 49 44 32 34 35 39 30 30   45300,DPID245900
+04c0  2c 46 32 49 44 34 46 30 30 30 30 2c 47 44 49 44   ,F2ID4F0000,GDID
+04d0  34 34 36 37 30 30 2c 47 51 49 44 35 31 34 37 30   446700,GQID51470
+04e0  30 2c 50 4c 49 44 36 31 30 30 30 30 2c 42 43 49   0,PLID610000,BCI
+04f0  44 33 39 30 30 30 30 2c 43 31 49 44 34 33 34 35   D390000,C1ID4345
+0500  30 30 2c 4d 53 49 44 34 30 30 30 30 30 2c 41 43   00,MSID400000,AC
+0510  49 44 35 33 30 30 30 30 2c 41 4c 49 44 36 46 30   ID530000,ALID6F0
+0520  30 30 30 2c 4d 58 49 44 34 44 34 33 30 30 2c 4d   000,MXID4D4300,M
+0530  51 49 44 32 34 35 31 30 30 2c 41 5a 49 44 34 31   QID245100,AZID41
+0540  37 41 30 30 2c 44 4d 49 44 34 34 36 44 30 30 2c   7A00,DMID446D00,
+0550  4f 41 49 44 32 34 36 46 30 30 2c 4f 42 49 44 32   OAID246F00,OBID2
+0560  34 37 30 30 30 2c 4f 4d 49 44 32 34 36 44 30 30   47000,OMID246D00
+0570  2c 50 34 49 44 35 30 30 30 30 30 2c 44 43 49 44   ,P4ID500000,DCID
+0580  32 34 36 34 30 30 2c 51 52 49 44 35 31 35 32 30   246400,QRID51520
+0590  30 2c 47 44 53 49 32 34 36 45 30 30 2c 4e 32 4d   0,GDSI246E00,N2M
+05a0  49 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30   I000000000000000
+05b0  30 30 30 30                                       0000
+    Data […]: 45303030302c49384c46303030302c43534c31303030312c43534c32314539332c415a4c31303030312c415a4c32304546382c44434c31303030332c44434c32303033322c444d444d33464646464646462c444d4c31303030312c444d4c32304332432c4d494c31303030312c4d494c323
+    [Length: 1460]
+
+No.     Time           Source                Destination           Protocol Length Info
+     38 3.252448       192.168.187.214       192.168.187.31        TCP      54     56698 → 51000 [ACK] Seq=18 Ack=5958 Win=65535 Len=0
+
+Frame 38: Packet, 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{F4ADB386-60D9-4E48-ACB9-89867C80FC44}, id 0
+Ethernet II, Src: HP_5c:c7:13 (24:6a:0e:5c:c7:13), Dst: DataLogic_4d:db:c8 (00:07:be:4d:db:c8)
+Internet Protocol Version 4, Src: 192.168.187.214, Dst: 192.168.187.31
+Transmission Control Protocol, Src Port: 56698, Dst Port: 51000, Seq: 18, Ack: 5958, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     39 3.252730       192.168.187.31        192.168.187.214       TCP      66     51000 → 56698 [PSH, ACK] Seq=5958 Ack=18 Win=2903 Len=12
+
+Frame 39: Packet, 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface \Device\NPF_{F4ADB386-60D9-4E48-ACB9-89867C80FC44}, id 0
+Ethernet II, Src: DataLogic_4d:db:c8 (00:07:be:4d:db:c8), Dst: HP_5c:c7:13 (24:6a:0e:5c:c7:13)
+Internet Protocol Version 4, Src: 192.168.187.31, Dst: 192.168.187.214
+Transmission Control Protocol, Src Port: 51000, Dst Port: 56698, Seq: 5958, Ack: 18, Len: 12
+Data (12 bytes)
+
+0000  30 30 30 30 30 30 30 30 30 30 30 30               000000000000
+    Data: 303030303030303030303030
+    [Length: 12]
+
+No.     Time           Source                Destination           Protocol Length Info
+     40 3.252752       192.168.187.214       192.168.187.31        TCP      54     56698 → 51000 [ACK] Seq=18 Ack=5970 Win=65523 Len=0
+
+Frame 40: Packet, 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{F4ADB386-60D9-4E48-ACB9-89867C80FC44}, id 0
+Ethernet II, Src: HP_5c:c7:13 (24:6a:0e:5c:c7:13), Dst: DataLogic_4d:db:c8 (00:07:be:4d:db:c8)
+Internet Protocol Version 4, Src: 192.168.187.214, Dst: 192.168.187.31
+Transmission Control Protocol, Src Port: 56698, Dst Port: 51000, Seq: 18, Ack: 5970, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     41 3.307445       192.168.187.31        192.168.187.214       TCP      1514   51000 → 56698 [ACK] Seq=5970 Ack=18 Win=2903 Len=1460
+
+Frame 41: Packet, 1514 bytes on wire (12112 bits), 1514 bytes captured (12112 bits) on interface \Device\NPF_{F4ADB386-60D9-4E48-ACB9-89867C80FC44}, id 0
+Ethernet II, Src: DataLogic_4d:db:c8 (00:07:be:4d:db:c8), Dst: HP_5c:c7:13 (24:6a:0e:5c:c7:13)
+Internet Protocol Version 4, Src: 192.168.187.31, Dst: 192.168.187.214
+Transmission Control Protocol, Src Port: 51000, Dst Port: 56698, Seq: 5970, Ack: 18, Len: 1460
+Data (1460 bytes)
+
+0000  30 30 30 30 30 30 30 30 30 2c 4d 49 49 44 36 44   000000000,MIID6D
+0010  35 30 30 30 2c 4c 45 47 43 30 30 30 30 2c 4c 46   5000,LEGC0000,LF
+0020  43 48 46 46 46 46 46 46 46 46 46 46 46 46 46 46   CHFFFFFFFFFFFFFF
+0030  46 46 2c 4c 46 50 52 30 30 30 30 30 30 30 30 30   FF,LFPR000000000
+0040  30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30   0000000000000000
+0050  30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 2c   000000000000000,
+0060  4c 46 53 55 30 44 30 30 30 30 30 30 30 30 30 30   LFSU0D0000000000
+0070  30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30   0000000000000000
+0080  30 30 30 30 30 30 30 30 30 30 30 30 2c 44 44 54   000000000000,DDT
+0090  48 30 32 37 31 2c 44 53 30 31 30 30 30 30 30 30   H0271,DS01000000
+00a0  30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30   0000000000000000
+00b0  30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30   0000000000000000
+00c0  30 30 2c 44 53 30 32 30 30 30 30 30 30 30 30 30   00,DS02000000000
+00d0  30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30   0000000000000000
+00e0  30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 2c   000000000000000,
+00f0  44 53 30 33 30 30 30 30 30 30 30 30 30 30 30 30   DS03000000000000
+0100  30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30   0000000000000000
+0110  30 30 30 30 30 30 30 30 30 30 30 30 2c 44 53 30   000000000000,DS0
+0120  34 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30   4000000000000000
+0130  30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30   0000000000000000
+0140  30 30 30 30 30 30 30 30 30 2c 44 53 30 35 30 30   000000000,DS0500
+0150  30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30   0000000000000000
+0160  30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30   0000000000000000
+0170  30 30 30 30 30 30 2c 44 53 30 36 30 30 30 30 30   000000,DS0600000
+0180  30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30   0000000000000000
+0190  30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30   0000000000000000
+01a0  30 30 30 2c 44 53 30 37 30 30 30 30 30 30 30 30   000,DS0700000000
+01b0  30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30   0000000000000000
+01c0  30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30   0000000000000000
+01d0  2c 44 53 30 38 30 30 30 30 30 30 30 30 30 30 30   ,DS0800000000000
+01e0  30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30   0000000000000000
+01f0  30 30 30 30 30 30 30 30 30 30 30 30 30 2c 44 53   0000000000000,DS
+0200  30 39 30 30 30 30 30 30 30 30 30 30 30 30 30 30   0900000000000000
+0210  30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30   0000000000000000
+0220  30 30 30 30 30 30 30 30 30 30 2c 44 53 31 30 30   0000000000,DS100
+0230  30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30   0000000000000000
+0240  30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30   0000000000000000
+0250  30 30 30 30 30 30 30 2c 43 32 49 44 36 38 30 30   0000000,C2ID6800
+0260  30 30 2c 43 52 49 44 33 34 30 30 30 30 2c 43 35   00,CRID340000,C5
+0270  49 44 36 41 30 30 30 30 2c 43 46 49 44 36 43 30   ID6A0000,CFID6C0
+0280  30 30 30 2c 43 52 43 4e 33 30 33 30 2c 42 54 46   000,CRCN3030,BTF
+0290  4e 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30   N000000000000000
+02a0  30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30   0000000000000000
+02b0  30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30   0000000000000000
+02c0  30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30   0000000000000000
+02d0  30 2c 42 54 50 36 33 31 33 32 33 33 33 34 33 35   0,BTP63132333435
+02e0  33 36 33 37 33 38 33 39 33 30 34 31 34 32 34 33   3637383930414243
+02f0  34 34 34 35 34 36 2c 42 54 50 43 33 31 33 32 33   444546,BTPC31323
+0300  33 33 34 2c 42 54 57 46 30 30 30 30 30 30 30 30   334,BTWF00000000
+0310  30 30 30 30 30 30 30 30 30 30 30 30 2c 55 4f 50   000000000000,UOP
+0320  49 31 32 33 35 2c 44 41 44 53 33 44 30 30 30 30   I1235,DADS3D0000
+0330  30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30   0000000000000000
+0340  30 30 30 30 30 30 30 30 30 30 2c 44 41 55 53 33   0000000000,DAUS3
+0350  44 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30   D000000000000000
+0360  30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 2c   000000000000000,
+0370  50 57 42 48 30 30 30 30 30 30 30 30 30 30 30 30   PWBH000000000000
+0380  30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30   0000000000000000
+0390  30 30 30 30 2c 50 57 42 54 30 30 30 30 30 30 30   0000,PWBT0000000
+03a0  30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30   0000000000000000
+03b0  30 30 30 30 30 30 30 30 30 2c 50 57 45 41 35 33   000000000,PWEA53
+03c0  33 33 30 30 30 30 30 30 30 30 30 30 30 30 30 30   3300000000000000
+03d0  30 30 30 30 30 30 30 30 30 30 30 30 30 30 2c 50   00000000000000,P
+03e0  57 45 42 30 30 30 30 30 30 2c 50 57 45 43 30 30   WEB000000,PWEC00
+03f0  30 30 30 30 2c 50 57 45 44 30 30 30 30 30 30 30   0000,PWED0000000
+0400  30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30   0000000000000000
+0410  30 30 30 30 30 30 30 30 30 2c 50 57 45 46 30 30   000000000,PWEF00
+0420  30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30   0000000000000000
+0430  30 30 30 30 30 30 30 30 30 30 30 30 30 30 2c 50   00000000000000,P
+0440  57 45 31 30 30 30 30 30 30 30 30 30 30 30 30 30   WE10000000000000
+0450  30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30   0000000000000000
+0460  30 30 30 2c 50 57 45 32 30 30 30 30 30 30 30 30   000,PWE200000000
+0470  30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30   0000000000000000
+0480  30 30 30 30 30 30 30 30 2c 50 57 45 4c 35 33 33   00000000,PWEL533
+0490  35 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30   5000000000000000
+04a0  30 30 30 30 30 30 30 30 30 30 30 30 30 2c 50 57   0000000000000,PW
+04b0  45 4d 35 33 33 34 30 30 30 30 30 30 30 30 30 30   EM53340000000000
+04c0  30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30   0000000000000000
+04d0  30 30 2c 50 57 45 4f 30 30 30 30 30 30 30 30 30   00,PWEO000000000
+04e0  30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30   0000000000000000
+04f0  30 30 30 30 30 30 30 2c 50 57 45 50 30 30 30 30   0000000,PWEP0000
+0500  30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30   0000000000000000
+0510  30 30 30 30 30 30 30 30 30 30 30 30 2c 50 57 46   000000000000,PWF
+0520  5a 46 46 46 46 2c 50 57 51 50 30 30 30 30 30 30   ZFFFF,PWQP000000
+0530  30 30 30 30 30 30 30 30 30 30 2c 50 57 53 42 30   0000000000,PWSB0
+0540  30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30   0000000000000000
+0550  30 30 30 30 30 30 30 2c 50 57 53 43 30 30 30 30   0000000,PWSC0000
+0560  30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30   0000000000000000
+0570  30 30 30 30 2c 50 57 53 44 30 30 30 30 30 30 30   0000,PWSD0000000
+0580  30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30   0000000000000000
+0590  30 2c 50 57 53 45 30 30 30 30 30 30 30 30 30 30   0,PWSE0000000000
+05a0  30 30 30 30 30 30 30 30 30 30 30 30 30 30 2c 50   00000000000000,P
+05b0  57 53 46 33                                       WSF3
+    Data […]: 3030303030303030302c4d4949443644353030302c4c454743303030302c4c464348464646464646464646464646464646462c4c465052303030303030303030303030303030303030303030303030303030303030303030303030303030302c4c465355304430303030303030303030303
+    [Length: 1460]
+
+No.     Time           Source                Destination           Protocol Length Info
+     42 3.307532       192.168.187.214       192.168.187.31        TCP      54     56698 → 51000 [ACK] Seq=18 Ack=7430 Win=65535 Len=0
+
+Frame 42: Packet, 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{F4ADB386-60D9-4E48-ACB9-89867C80FC44}, id 0
+Ethernet II, Src: HP_5c:c7:13 (24:6a:0e:5c:c7:13), Dst: DataLogic_4d:db:c8 (00:07:be:4d:db:c8)
+Internet Protocol Version 4, Src: 192.168.187.214, Dst: 192.168.187.31
+Transmission Control Protocol, Src Port: 56698, Dst Port: 51000, Seq: 18, Ack: 7430, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     43 3.307843       192.168.187.31        192.168.187.214       TCP      66     51000 → 56698 [PSH, ACK] Seq=7430 Ack=18 Win=2903 Len=12[Malformed Packet]
+
+Frame 43: Packet, 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface \Device\NPF_{F4ADB386-60D9-4E48-ACB9-89867C80FC44}, id 0
+Ethernet II, Src: DataLogic_4d:db:c8 (00:07:be:4d:db:c8), Dst: HP_5c:c7:13 (24:6a:0e:5c:c7:13)
+Internet Protocol Version 4, Src: 192.168.187.31, Dst: 192.168.187.214
+Transmission Control Protocol, Src Port: 51000, Dst Port: 56698, Seq: 7430, Ack: 18, Len: 12
+[Malformed Packet: LBMSRS]
+
+No.     Time           Source                Destination           Protocol Length Info
+     44 3.307909       192.168.187.214       192.168.187.31        TCP      54     56698 → 51000 [ACK] Seq=18 Ack=7442 Win=65523 Len=0
+
+Frame 44: Packet, 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{F4ADB386-60D9-4E48-ACB9-89867C80FC44}, id 0
+Ethernet II, Src: HP_5c:c7:13 (24:6a:0e:5c:c7:13), Dst: DataLogic_4d:db:c8 (00:07:be:4d:db:c8)
+Internet Protocol Version 4, Src: 192.168.187.214, Dst: 192.168.187.31
+Transmission Control Protocol, Src Port: 56698, Dst Port: 51000, Seq: 18, Ack: 7442, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     45 3.337256       192.168.187.31        192.168.187.214       TCP      269    51000 → 56698 [PSH, ACK] Seq=7442 Ack=18 Win=2903 Len=215
+
+Frame 45: Packet, 269 bytes on wire (2152 bits), 269 bytes captured (2152 bits) on interface \Device\NPF_{F4ADB386-60D9-4E48-ACB9-89867C80FC44}, id 0
+Ethernet II, Src: DataLogic_4d:db:c8 (00:07:be:4d:db:c8), Dst: HP_5c:c7:13 (24:6a:0e:5c:c7:13)
+Internet Protocol Version 4, Src: 192.168.187.31, Dst: 192.168.187.214
+Transmission Control Protocol, Src Port: 51000, Dst Port: 56698, Seq: 7442, Ack: 18, Len: 215
+Data (215 bytes)
+
+0000  33 44 30 30 30 30 30 30 2c 44 41 4c 53 30 30 30   3D000000,DALS000
+0010  30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30   0000000000000000
+0020  30 30 30 30 30 30 30 30 30 30 30 30 30 2c 44 45   0000000000000,DE
+0030  54 58 30 30 30 30 30 30 30 30 30 30 30 30 30 30   TX00000000000000
+0040  30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30   0000000000000000
+0050  30 30 2c 44 45 55 4e 30 30 30 30 30 30 30 30 30   00,DEUN000000000
+0060  30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30   0000000000000000
+0070  30 30 30 30 30 30 30 2c 44 45 4f 54 30 30 30 30   0000000,DEOT0000
+0080  30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30   0000000000000000
+0090  30 30 30 30 30 30 30 30 30 30 30 30 2c 44 45 50   000000000000,DEP
+00a0  46 35 30 36 31 36 39 37 32 36 39 36 45 36 37 32   F50616972696E672
+00b0  30 36 36 36 31 36 39 36 43 36 35 36 34 30 30 30   06661696C6564000
+00c0  30 2c 52 49 49 44 35 45 35 41 30 30 2c 52 49 4f   0,RIID5E5A00,RIO
+00d0  50 30 32 30 30 20 0d                              P0200 .
+    Data […]: 33443030303030302c44414c5330303030303030303030303030303030303030303030303030303030303030302c4445545830303030303030303030303030303030303030303030303030303030303030302c4445554e30303030303030303030303030303030303030303030303030303
+    [Length: 215]
+
+No.     Time           Source                Destination           Protocol Length Info
+     46 3.337308       192.168.187.214       192.168.187.31        TCP      54     56698 → 51000 [ACK] Seq=18 Ack=7657 Win=65308 Len=0
+
+Frame 46: Packet, 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{F4ADB386-60D9-4E48-ACB9-89867C80FC44}, id 0
+Ethernet II, Src: HP_5c:c7:13 (24:6a:0e:5c:c7:13), Dst: DataLogic_4d:db:c8 (00:07:be:4d:db:c8)
+Internet Protocol Version 4, Src: 192.168.187.214, Dst: 192.168.187.31
+Transmission Control Protocol, Src Port: 56698, Dst Port: 51000, Seq: 18, Ack: 7657, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     47 4.437422       192.168.187.214       192.168.187.31        TCP      57     56698 → 51000 [PSH, ACK] Seq=18 Ack=7657 Win=65308 Len=3
+
+Frame 47: Packet, 57 bytes on wire (456 bits), 57 bytes captured (456 bits) on interface \Device\NPF_{F4ADB386-60D9-4E48-ACB9-89867C80FC44}, id 0
+Ethernet II, Src: HP_5c:c7:13 (24:6a:0e:5c:c7:13), Dst: DataLogic_4d:db:c8 (00:07:be:4d:db:c8)
+Internet Protocol Version 4, Src: 192.168.187.214, Dst: 192.168.187.31
+Transmission Control Protocol, Src Port: 56698, Dst Port: 51000, Seq: 18, Ack: 7657, Len: 3
+Data (3 bytes)
+
+0000  24 75 0d                                          $u.
+    Data: 24750d
+    [Length: 3]
+
+No.     Time           Source                Destination           Protocol Length Info
+     48 4.500086       192.168.187.31        192.168.187.214       TCP      60     51000 → 56698 [ACK] Seq=7657 Ack=21 Win=2900 Len=0
+
+Frame 48: Packet, 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface \Device\NPF_{F4ADB386-60D9-4E48-ACB9-89867C80FC44}, id 0
+Ethernet II, Src: DataLogic_4d:db:c8 (00:07:be:4d:db:c8), Dst: HP_5c:c7:13 (24:6a:0e:5c:c7:13)
+Internet Protocol Version 4, Src: 192.168.187.31, Dst: 192.168.187.214
+Transmission Control Protocol, Src Port: 51000, Dst Port: 56698, Seq: 7657, Ack: 21, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     49 4.682170       192.168.187.31        192.168.187.214       TCP      60     51000 → 56698 [PSH, ACK] Seq=7657 Ack=21 Win=2900 Len=3
+
+Frame 49: Packet, 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface \Device\NPF_{F4ADB386-60D9-4E48-ACB9-89867C80FC44}, id 0
+Ethernet II, Src: DataLogic_4d:db:c8 (00:07:be:4d:db:c8), Dst: HP_5c:c7:13 (24:6a:0e:5c:c7:13)
+Internet Protocol Version 4, Src: 192.168.187.31, Dst: 192.168.187.214
+Transmission Control Protocol, Src Port: 51000, Dst Port: 56698, Seq: 7657, Ack: 21, Len: 3
+Data (3 bytes)
+
+0000  24 3e 0d                                          $>.
+    Data: 243e0d
+    [Length: 3]
+
+No.     Time           Source                Destination           Protocol Length Info
+     50 4.682227       192.168.187.214       192.168.187.31        TCP      54     56698 → 51000 [ACK] Seq=21 Ack=7660 Win=65305 Len=0
+
+Frame 50: Packet, 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{F4ADB386-60D9-4E48-ACB9-89867C80FC44}, id 0
+Ethernet II, Src: HP_5c:c7:13 (24:6a:0e:5c:c7:13), Dst: DataLogic_4d:db:c8 (00:07:be:4d:db:c8)
+Internet Protocol Version 4, Src: 192.168.187.214, Dst: 192.168.187.31
+Transmission Control Protocol, Src Port: 56698, Dst Port: 51000, Seq: 21, Ack: 7660, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     51 4.907304       192.168.187.214       192.168.187.31        TCP      57     56698 → 51000 [PSH, ACK] Seq=21 Ack=7660 Win=65305 Len=3
+
+Frame 51: Packet, 57 bytes on wire (456 bits), 57 bytes captured (456 bits) on interface \Device\NPF_{F4ADB386-60D9-4E48-ACB9-89867C80FC44}, id 0
+Ethernet II, Src: HP_5c:c7:13 (24:6a:0e:5c:c7:13), Dst: DataLogic_4d:db:c8 (00:07:be:4d:db:c8)
+Internet Protocol Version 4, Src: 192.168.187.214, Dst: 192.168.187.31
+Transmission Control Protocol, Src Port: 56698, Dst Port: 51000, Seq: 21, Ack: 7660, Len: 3
+Data (3 bytes)
+
+0000  24 21 0d                                          $!.
+    Data: 24210d
+    [Length: 3]
+
+No.     Time           Source                Destination           Protocol Length Info
+     52 5.000126       192.168.187.31        192.168.187.214       TCP      60     51000 → 56698 [ACK] Seq=7660 Ack=24 Win=2897 Len=0
+
+Frame 52: Packet, 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface \Device\NPF_{F4ADB386-60D9-4E48-ACB9-89867C80FC44}, id 0
+Ethernet II, Src: DataLogic_4d:db:c8 (00:07:be:4d:db:c8), Dst: HP_5c:c7:13 (24:6a:0e:5c:c7:13)
+Internet Protocol Version 4, Src: 192.168.187.31, Dst: 192.168.187.214
+Transmission Control Protocol, Src Port: 51000, Dst Port: 56698, Seq: 7660, Ack: 24, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     53 5.182151       192.168.187.31        192.168.187.214       TCP      122    51000 → 56698 [PSH, ACK] Seq=7660 Ack=24 Win=2897 Len=68
+
+Frame 53: Packet, 122 bytes on wire (976 bits), 122 bytes captured (976 bits) on interface \Device\NPF_{F4ADB386-60D9-4E48-ACB9-89867C80FC44}, id 0
+Ethernet II, Src: DataLogic_4d:db:c8 (00:07:be:4d:db:c8), Dst: HP_5c:c7:13 (24:6a:0e:5c:c7:13)
+Internet Protocol Version 4, Src: 192.168.187.31, Dst: 192.168.187.214
+Transmission Control Protocol, Src Port: 51000, Dst Port: 56698, Seq: 7660, Ack: 24, Len: 68
+Data (68 bytes)
+
+0000  42 43 39 36 30 30 2d 42 54 2d 42 41 53 45 2d 43   BC9600-BT-BASE-C
+0010  48 41 52 47 45 52 20 53 4f 46 54 57 41 52 45 20   HARGER SOFTWARE 
+0020  52 45 4c 45 41 53 45 20 36 31 30 31 35 39 32 35   RELEASE 61015925
+0030  34 20 42 4c 20 35 34 20 31 32 2f 4d 61 79 2f 32   4 BL 54 12/May/2
+0040  30 32 35 0d                                       025.
+    Data: 4243393630302d42542d424153452d4348415247455220534f4654574152452052454c454153452036313031353932353420424c2035342031322f4d61792f323032350d
+    [Length: 68]
+
+No.     Time           Source                Destination           Protocol Length Info
+     54 5.182266       192.168.187.214       192.168.187.31        TCP      54     56698 → 51000 [ACK] Seq=24 Ack=7728 Win=65237 Len=0
+
+Frame 54: Packet, 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{F4ADB386-60D9-4E48-ACB9-89867C80FC44}, id 0
+Ethernet II, Src: HP_5c:c7:13 (24:6a:0e:5c:c7:13), Dst: DataLogic_4d:db:c8 (00:07:be:4d:db:c8)
+Internet Protocol Version 4, Src: 192.168.187.214, Dst: 192.168.187.31
+Transmission Control Protocol, Src Port: 56698, Dst Port: 51000, Seq: 24, Ack: 7728, Len: 0
